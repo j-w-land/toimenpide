@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href = "css/sandstonenav.css"> -->
+    <link rel="stylesheet" href = "css/sandstone2.css">
+    <link rel="stylesheet" href = "css/fontawesome.css">
+    <link rel="stylesheet" href = "css/solid.css">
+    <script defer src="assets/JS/solid.js"></script>
+    <script defer src="assets/JS/fontawesome.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toimenpidekoodit</title>
+<!--     <style>
+    @font-face {
+      font-family: 'Arvo-auto';
+      font-display: auto;
+      src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    }    
+    </style> -->
+</head>
+
+<body id = "container" class="container"; style="background-color:#F5F5F5; margin-top: 10px;" > 
+    <!-- Navbar alkaa -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"; style="margin-top: 0%; margin-bottom: -23px;">
+            <a class="navbar-brand" href="#">Navbar</a>
+           <!--  <a class="navbar-brand" href="#" style="font-size: 50%;; width: 80px; float:left; margin-right:80%">valikko </a> -->
+           <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+          
+            <div id="navbarColor01"> <!-- class="collapse navbar-collapse" -->
+              <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li> -->
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+
+                <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> -->
+                <!-- <button class="btn btn-secondary btn-large my-2 my-sm-0" type="button" style="font-size: 50%; width: 80px; float:left; margin-right:80%">Avaa valikko ja voitat palkinnon</button> -->
+
+                <button id="helpButton" class="btn btn-secondary btn-large my-2 my-sm-0" type="button" style="font-size: 200%; width: 80px; float:left; margin-right:80%">?</button>
+              </form>
+            </div>
+          </nav>
+          <!-- Navbar loppuu -->
+
+    <div class="mt-5">
+        <div class="row">
+            <div class="cold-md-6 m-auto" style="min-width: 100%;">
+                <h2 class="text-center mb-3" style="margin-right: 6%" >
+                    Toimenpidekoodit
+                </h2>
+                <div class="row">
+                    <div id="filterButtonsParent" class="col-sm-12">
+                        <p id="filterButtons" class= "text-center" style="font-size:1vw">
+                        <button id="XRbutton" type="button" class= "btn btn-outline-primary" >R0-R III</button>
+                        <button id="RUbutton" type="button" class= "btn btn-outline-success">RU I- RU II</button>
+                        <button id="RRbutton" type="button" class= "btn btn-outline-warning">RRI- RR III</button>
+                        <i id="filterInfoButton" class="fas fa-info-circle fa-w-16 fa-2x" style="margin-left: 1.9%; margin-bottom: -0.5%;"></i>
+                        </p> 
+                    </div>
+
+<!-- filter info alkaa -->
+
+<!-- <div id="div1" style="width: 100px; height: 100px; top:0; left:0; background:#777; position:absolute;"></div> -->
+<!-- <div id="div2" style="width: 100px; height: 100px; top:300px; left:300px; background:#333; position:absolute;"></div> -->
+
+<!-- <div id="filterInfoXR" class="alert   alert-primary" style="position: relative; width: 24%; height: 8%; padding: 1%; margin-top: 0.5%; float: left; left: 12%; border-width: medium; resize: both; font-size:1vw">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <p style="margin-bottom: 2.0%; font-style: italic;"> Toimenpideluokat R0-R III:</p>
+   <a href="#" class="alert-link"> </a> Terveyskeskusten kaikkiin lääkäreihin sovellettavat toimenpiteet yleisohjeet huomioon ottaen
+</div>
+
+<div id="filterInfoXR" class="alert   alert-success" style="position: relative; width: 24%; height: 8%; padding: 1%; margin-top: 0.5%; float: left; left: 12%; border-width: medium; resize: both; font-size:1vw">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <p style="margin-bottom: 2.0%; font-style: italic;"> Toimenpideluokat RU I - RU II:</p>
+   <a href="#" class="alert-link"></a> Muihin terveyskeskusten lääkäreihin kuin röntgenerikoislääkäreihin
+   sovellettavat radiologiset toimenpiteet 
+</div>
+
+<div id="filterInfoXR" class="alert   alert-warning" style="position: relative; width: 24%; height: 8%; padding: 1%; margin-top: 0.5%; float: left; left: 12%; border-width: medium; resize: both; font-size:1vw">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <p style="margin-bottom: 2.0%; font-style: italic;"> Toimenpideluokat RR I - RR III:</p>
+   <a href="#" class="alert-link"></a> Terveyskeskusten röntgenerikoislääkäreihin sovellettavat radiologiset toimenpiteet
+</div> -->
+
+<!-- filter info loppuu -->
+                </div>
+
+                <div class="form-group" style="display: -webkit-flex;">
+                    <input type="text" id="search" class="form-control form-control-lg" style="min-width: 100%; "  placeholder="Kirjoita hakusana...">
+                </div>
+
+              <div id="match-listin ja helpin parent">
+
+                <div id="match-list" style="z-index: 1;">
+
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="JS/popper.js"></script> -->
+    <script src="JS/main.js"></script>
+    <script src="JS/search.js"></script>
+    <script src="JS/searchExt.js"></script>
+<!--     <script src="directory.js"></script> -->
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>

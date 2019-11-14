@@ -1,0 +1,418 @@
+[
+		{
+	  "id": 1,
+	  "ryhmä": "R 0",
+	  "nimi": "Lääkärin potilaalle puhelimitse tai sähköisesti antama hoito-ohje, jonka lääkäri kirjaa sairauskertomusjärjestelmään",
+	  "soveltamisohje": "Toimenpiteellä korvataan yleensä vastaanottokäynti. Toimenpidepalkkiota ei makseta, jos potilas tulee välittömästi soiton jälkeen hoitoon. Toimenpidettä ei korvata, mikäli ohje annetaan toisen henkilön välityksellä, paitsi niissä tilanteissa, joissa potilas ei esim. ikänsä, ymmärryksensä, kieliongelmiensa tai vammaisuutensa perusteella pysty itse hoitamaan asiaansa. Tällä toimenpiteellä ei tarkoiteta terveydenhuollon henkilöstön keskinäistä konsultointia."
+	},
+	{
+	  "id": 2,
+	  "ryhmä": "R 0",
+	  "nimi": "Lääkärin muulle terveydenhuollon ammattihenkilölle suorittama konsultointi, johon liittyy potilaan hoitoa koskeva sairauskertomusjärjestelmään kirjattava hoito-ohje.",
+	  "soveltamisohje": "Toimenpiteellä korvataan yleensä vastaanottokäynti. Toimenpidepalkkiota ei makseta, jos potilas tulee konsultoinnin seurauksena välittömästi lääkärin hoitoon. Sairauskertomuksesta tulee löytyä saatu konsultaatiovastaus sekä merkintä konsultaation antavasta lääkäristä, jolle korvaus suoritetaan. Toimenpiteen käyttö perustuu terveydenhuollon ammattihenkilöstön tehtävä- ja työnjakomuutoksiin. Ne voivat liittyä lakimuutoksiin, organisaatiouudistuksiin tai palvelutarpeiden ja henkilöstön osaamisen parempaan hyödyntämiseen palvelu- ja henkilöstöstrategioiden toteuttamiseksi."
+	},
+	{
+	  "id": 101,
+	  "ryhmä": "R I",
+	  "nimi": "Lääkärin suorittama näöntutkimus silmänpohjatutkimuksineen",
+	  "soveltamisohje": "Tutkimuksella tarkoitetaan lääkärin suorittamaa näöntutkimusta silmänpohjatutkimuksineen. Tutkimus on korvattava toimenpide vain silloin, kun se tehdään potilaan valittaessa näkövikaan tai silmäsairauteen liittyviä oireita tai se muuten tehdään samalla perusteellisuudella esim. diabeetikoille vuositarkastuksen yhteydessä. Tätä toimenpidettä käytetään myös annettaessa dokumentoitu lausunto silmänpohjakuvista."
+	},
+	{
+	  "id": 103,
+	  "ryhmä": "R I",
+	  "nimi": "Lääkärin suorittama perusteellinen neurologinen tutkimus",
+	  "soveltamisohje": "Tutkimuksella tarkoitetaan yleislääkäritasoista perusteellista neurologista tutkimusta. Tutkimus on korvattava toimenpide vain silloin, kun se tehdään potilaan valittaessa neurologisia oireita tai on syytä epäillä, että potilaan oireiden takana voi olla neurologista selvittelyä vaativa syy taikka tutkimus tehdään vastaavalla perusteellisuudella muusta syystä. Toimenpide ei ole korvattava esim. silloin kun tutkimus tehdään orientoivana neurologisena tutkimuksena ajokorttitutkimuksen yhteydessä."
+	},
+	{
+	  "id": 105,
+	  "ryhmä": "R I",
+	  "nimi": "Kardiorespiratorinen kokonaisarvio laboratoriotutkimuksineen",
+	  "soveltamisohje": "Tutkimuksella tarkoitetaan esim. vuosittain tapahtuvaa, tavanomaista vastaanottokäyntiä perusteellisempaa sydän- tai keuhkosairauspotilaan tai verenpainepotilaan tutkimusta. Tutkimus on korvattava toimenpide vain silloin, kun sen yhteydessä tulkitaan EKG-, thorax-rtg, hengitysfunktiotutkimuksia ja/tai laboratoriotutkimuksia. Lisäksi tutkimus on korvattava toimenpide silloin, kun joudutaan tekemään akuutissa vaiheessa perusteellinen sydän- ja keuhkosairauspotilaan kliininen tutkimus ja voidaan ottaa ja tulkita edellä mainittuja lisätutkimuksia."
+	},
+	{
+	  "id": 106,
+	  "ryhmä": "R I",
+	  "nimi": "Pinnalliset leikkaukset, haavojen revisio ja suturaatio",
+	  "soveltamisohje": "Arvio haavojen suturoimisessa toimenpide R I 106:n ja R II 206:n välillä tehdään tapauskohtaisesti ottaen huomioon ajankäyttö ja toimenpiteen vaativuus. Mikäli pinnalliset leikkaukset kohdistuvat selvästi eri asioihin ja niiden hoitamiseen kuluu huomattavasti aikaa ja potilas esim. joudutaan valmistelemaan kahdesti toimenpiteeseen, voidaan periä kaksi tämän ryhmän mukaista palkkiota.\n\nTätä toimenpidettä käytetään myös esim. säärihaavapotilaan haavan revisiossa."
+	},
+	{
+	  "id": 107,
+	  "ryhmä": "R I",
+	  "nimi": "Incisiot, joissa puudutus",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 108,
+	  "ryhmä": "R I",
+	  "nimi": "Rikan poisto silmästä puudutuksessa",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 109,
+	  "ryhmä": "R I",
+	  "nimi": "Korvakäytävän huuhtelu ja/tai imu",
+	  "soveltamisohje": "Tätä toimenpidettä käytetään myös vaikean externin otiitin imussa, huuhtelussa ja tamponaatiohoidossa."
+	},
+	{
+	  "id": 110,
+	  "ryhmä": "R I",
+	  "nimi": "Tärykalvopisto",
+	  "soveltamisohje": "Parasenteesi on yksi toimenpide, vaikka se tehtäisiin molempiin korviin."
+	},
+	{
+	  "id": 111,
+	  "ryhmä": "R I",
+	  "nimi": "Poskiontelopunktio/huuhtelu",
+	  "soveltamisohje": "Poskiontelopunktio on yksi toimenpide, vaikka se tehtäisiin molemmin puolin. Toimenpide on maksullinen myös silloin, kun on kyseessä antrostomia-potilas, jolle tehdään huuhtelu lavaatiokärjellä."
+	},
+	{
+	  "id": 113,
+	  "ryhmä": "R I",
+	  "nimi": "Kynsiin ja kynsivalleihin kohdistuvat leikkaukset, jotka tehdään puudutuksessa",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 114,
+	  "ryhmä": "R I",
+	  "nimi": "Injektiohoidot muualle kuin lihaksiin tai ihon alle",
+	  "soveltamisohje": "Esimerkiksi erilaiset niveliin kohdistuvat lääkeinjektiot. Mikäli reumapotilaalle laitetaan lääkettä useampiin pikkuniveliin samanaikaisesti, on kyseessä vain yksi toimenpide. Myös injektiot, jotka kohdistetaan pehmytkudoksiin tarkoituksena esimerkiksi tulehdusprosessin rauhoittaminen jännekiinnitysalueella, ovat korvattavia toimenpiteitä."
+	},
+	{
+	  "id": 116,
+	  "ryhmä": "R I",
+	  "nimi": "Kipsaus",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 117,
+	  "ryhmä": "R I",
+	  "nimi": "Psykiatrisen tilan suunnitellut terapiakäynnit (esim. perheterapia)",
+	  "soveltamisohje": "Psykiatrisen tilan suunnitelluilla terapiakäynneillä tarkoitetaan käyntejä, jotka on etukäteen sovittu potilaan kanssa koskemaan tiettyä tavoitteellista hoitoa tai hoidon suunnittelua."
+	},
+	{
+	  "id": 118,
+	  "ryhmä": "R I",
+	  "nimi": "Lääkärin suorittama konsultointi, johon liittyy potilaan tutkiminen",
+	  "soveltamisohje": "Toimenpiteellä tarkoitetaan niitä tilanteita, joissa esimerkiksi nuorempi tai kokemattomampi lääkäri kysyy kokeneemman kollegan mielipidettä potilaan hoidosta ja tämä konsultaation antava lääkäri suorittaa itse potilaan tutkimuksen. Sairauskertomuksesta tulee löytyä saatu konsultaatiovastaus sekä merkinnät konsultaation antavasta lääkäristä, jolle korvaus suoritetaan."
+	},
+	{
+	  "id": 119,
+	  "ryhmä": "R I",
+	  "nimi": "Lääkekapselin asettaminen ihon alle",
+	  "soveltamisohje": "Kyseeseen tulevat lähinnä ehkäisykapselit ja antabuskapselit. Tätä toimenpidettä käytetään myös poistettaessa esim. ehkäisykapseleita."
+	},
+	{
+	  "id": 120,
+	  "ryhmä": "R I",
+	  "nimi": "Suonensisäisen nestehoidon aloittaminen",
+	  "soveltamisohje": "Toimenpiteellä tarkoitetaan päätöstä suonensisäisen nestehoidon aloittamisesta siihen liittyvine mahdollisine lääkehoitoineen."
+	},
+	{
+	  "id": 121,
+	  "ryhmä": "R I",
+	  "nimi": "Koagulaatiohoidot (nenän limakalvot, kohdunsuu, pinnalliset iho­muutokset)",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 123,
+	  "ryhmä": "R I",
+	  "nimi": "Gynekologinen tutkimus ja siihen liittyvä irtosolunäytteen otto",
+	  "soveltamisohje": "Toimenpiteeseen kuuluvalla irtosolunäytteen otolla tarkoitetaan lähinnä PAPA-tutkimuksia. Joukkotutkimuksena otettuja irtosolunäytteitä ja äitiysneuvoloissa rutiininomaisesti otettuja irtosolunäytteitä ei kuitenkaan korvata toimenpiteinä. Korvattava toimenpide solunäytteenotto on myös silloin, kun lääkäri tekee sen GC-näytteen saamiseksi tapauksissa, joissa hän itse suorittaa myös näytteen mikroskopoinnin."
+	},
+	{
+	  "id": 124,
+	  "ryhmä": "R I",
+	  "nimi": "Akupunktiohoidot",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 126,
+	  "ryhmä": "R I",
+	  "nimi": "Silmänpaineen mittaus",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 127,
+	  "ryhmä": "R I",
+	  "nimi": "Äänihuulten tutkimus",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 128,
+	  "ryhmä": "R I",
+	  "nimi": "Luxoituneen nivelen reponointi",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 129,
+	  "ryhmä": "R I",
+	  "nimi": "Kierukan asettaminen",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 130,
+	  "ryhmä": "R I",
+	  "nimi": "Tamponaatiohoidot (nenään tai korvaan)",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 131,
+	  "ryhmä": "R I",
+	  "nimi": "Polyypin poisto",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 132,
+	  "ryhmä": "R I",
+	  "nimi": "Vierasesineen poisto kehon luonnollisista aukoista ja onteloista",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 133,
+	  "ryhmä": "R I",
+	  "nimi": "Otomikroskopia korvamikroskooppia käyttäen",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 134,
+	  "ryhmä": "R I",
+	  "nimi": "Ohutneulabiopsia",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 136,
+	  "ryhmä": "R I",
+	  "nimi": "Rakkopunktio",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 137,
+	  "ryhmä": "R I",
+	  "nimi": "Nivelpunktio",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 139,
+	  "ryhmä": "R I",
+	  "nimi": "Karsastuksen perusteellinen tutkimus",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 141,
+	  "ryhmä": "R I",
+	  "nimi": "Peräpukamiin kohdistuva ei-leikkauksellinen toimenpide (ligaatio, kryokoagulaatio, trombosoivat injektiohoidot)",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 143,
+	  "ryhmä": "R I",
+	  "nimi": "Fyysisen, psyykkisen ja sosiaalisen toimintakyvyn selvittely, arviointi ja hoidon suunnittelu sekä hoitosuunnitelman laadinta",
+	  "soveltamisohje": "Toimenpide edellyttää yleensä potilaan omakohtaista tutkimista. Toimenpide tulee kysymykseen esimerkiksi monisairaan potilaan lääke- ja muun hoidon kokonaisuutta arvioitaessa ja/tai suunniteltaessa, vanhuspotilaan hoitopaikkaa/jatkohoitopaikkaa selviteltäessä ja/tai suunniteltaessa ja potilaslaissa tarkoitettua hoitosuunnitelmaa laadittaessa. Toimenpiteestä syntyy tarvittavat merkinnät sairauskertomukseen ja/tai syntyy erillinen todistus/lausunto."
+	},
+	{
+	  "id": 145,
+	  "ryhmä": "R I",
+	  "nimi": "Elävän henkilön kliininen (oikeuslääkeopillinen) tutkimus",
+	  "soveltamisohje": "Tutkimus tulee kyseeseen esimerkiksi ulkoisten pahoinpitelyvammojen tutkimuksena."
+	},
+	{
+	  "id": 146,
+	  "ryhmä": "R I",
+	  "nimi": "Ensikäynti äitiysneuvolassa",
+	  "soveltamisohje": "Käyntiin liittyy aina asiakkaan terveydentilan arvio ja raskauden keston määritys. Lisäksi yleensä käyntiin liittyy yleinen raskauden riskien kartoitus, seulontavalistus, tupakka-alkoholi-valistus, ohjeet ravinnosta, liikunnasta jne."
+	},
+	{
+	  "id": 147,
+	  "ryhmä": "R I",
+	  "nimi": "Lapsille suoritettava viimeinen neuvolatarkastus ennen kouluunmenoa",
+	  "soveltamisohje": "Tarkastus tehdään 4 vuoden iässä ja siihen kuuluu psyykkisen ja fyysisen kehitystason arviointi sekä sosiaalisten taitojen arviointi ja mahdollisesti tarvittavien tukitoimenpiteiden suunnittelu. Lapsen ja vanhempien suhdetta ja lasten itsenäistymistä tuetaan ja opastetaan ja ohjataan hoitoon kasvatusongelmissa."
+	},
+	{
+	  "id": 148,
+	  "ryhmä": "R I",
+	  "nimi": "Koulu- ja opiskelijaterveydenhuoltoon kuuluva tarkastus, jonka yhteydessä tehdään lausunto",
+	  "soveltamisohje": "Tarkastus tehdään koulun loppuvaiheessa ja sen yhteydessä voidaan tehdä perusteltuja kannanottoja tai lausuntoja oppilaan soveltuvuudesta suunnittelemiinsa ammatteihin tai tehdään ns. nuorison terveystodistus."
+	},
+	{
+	  "id": 149,
+	  "ryhmä": "R I",
+	  "nimi": "Hormonikorvaushoidon aloittaminen joko naiselle tai miehelle",
+	  "soveltamisohje": "Toimenpiteellä tarkoitetaan käyntiä, jonka yhteydessä tehdään kliininen tutkimus ja selvitetään mahdollisen hoidon edut ja haitat sekä suunnitellaan hoidon toteutus ja sovitaan jatkoseurannasta."
+	},
+	{
+	  "id": 150,
+	  "ryhmä": "R I",
+	  "nimi": "Verenkierron tutkiminen Doppler-UÄ -laitteen avulla.",
+	  "soveltamisohje": "Toimenpidettä käytetään tutkittaessa esimerkiksi diabeetikon valtimoverenkiertoa tai säärihaavojen etiologiaa."
+	},
+	{
+	  "id": 151,
+	  "ryhmä": "R I",
+	  "nimi": "Muistisairauslääkityksen aloittaminen muistisairaalle potilaalle",
+	  "soveltamisohje": "Toimenpiteellä tarkoitetaan käyntiä, jonka yhteydessä lääkkeillä hoidettavaa muistisairautta (Alzheimerin tauti, Parkinsonin tautiin liittyvä dementia) sairastavalle potilaalle tehdään kliininen tutkimus ja selvitetään lääkehoidon indikaatioiden olemassaolo, mahdollisen hoidon edut ja haitat, sekä suunnitellaan hoidon toteutus ja sovitaan jatkoseurannasta.\n\nToimenpide on korvattava neurologian ja geriatrian alan erikoislääkärille lääkehoidon aloittamista koskevan päätöksenteon osalta. Toimenpidettä ei kuitenkaan käytetä, jos samassa yhteydessä tehdään lausunto lääkehoidon korvattavuudesta (R II 225).\n\nLisäksi toimenpide on korvattava myös muille terveyskeskuksessa työskenteleville lääkäreille lääkehoidon muutosta koskevan arvion ja päätöksen yhteydessä (hoidon tehostaminen tai vaihtaminen, yhdistelmähoidon aloittaminen, tarpeettoman lääkehoidon lopettaminen)."
+	},
+	{
+	  "id": 201,
+	  "ryhmä": "R II",
+	  "nimi": "Fyysisen, psyykkisen ja sosiaalisen toimintakyvyn selvittely, arviointi ja hoidonsuunnittelu.",
+	  "soveltamisohje": "Toimenpiteellä tarkoitetaan toimintakyvyn ja hoidontarpeen laajaa selvittelyä ja tähän liittyvää hoitosuunnitelman tekemistä. Toimenpidettä käytetään vastaavissa tilanteissa kuin R I 143 silloin, kun toimenpide vastaa ajankäytöltään ja vaativuudeltaan palkkioryhmän R II toimenpidettä. Toimenpidettä voidaan käyttää esimerkiksi harkittaessa M I lausunnon (tarkkailulähete M I) antamista tai arvioitaessa mahdollista lasten huostaanottoa."
+	},
+	{
+	  "id": 202,
+	  "ryhmä": "R II",
+	  "nimi": "Kokonaisvaltainen kuntoutusarviointi",
+	  "soveltamisohje": "Toimenpiteellä tarkoitetaan laajaa toimintakyvyn arviointia, johon yleensä liittyy kuntoutussuunnitelman tekeminen käyttäen esimerkiksi muuta kuntoutushenkilökuntaa apuna. Veteraanikuntoutusta varten tarvittavat tutkimukset ja lausunnot katsotaan tämän ryhmän mukaisiksi, mikäli ne tehdään viranomaisen asiasta antamien ohjeiden perusteella ja veteraanikuntoutuksen valinnan kriteerit ovat ensisijaisesti lääketieteelliset. Mikäli näin ei ole, käytetään toimenpidettä R I 143."
+	},
+	{
+	  "id": 203,
+	  "ryhmä": "R II",
+	  "nimi": "Työkyvyn arviointi",
+	  "soveltamisohje": "Työkyvyn arvioinnilla tarkoitetaan laajaa, perusteellista työkyvyn arviointia riippumatta siitä, mikä on lopputulos. Toimenpide ei tule kyseeseen määrättäessä lyhytaikaista sairauslomaa esimerkiksi SVA-lomakkeella. Rutiininomainen työhöntulotarkastus ei myöskään ole tässä tarkoitettu toimenpide. Toimenpiteeksi ei lueta esimerkiksi asevelvollisten palvelukelpoisuuden selvittämiseksi tehtyjä tarkastuksia tai tavanomaisen T-lausunnon tekemistä. E-lausunnolla ilmaistu työkyvyn arvio on tässä tarkoitettu toimenpide vain, mikäli työkykyä joudutaan laajemmin tutkimaan ja perustelemaan."
+	},
+	{
+	  "id": 204,
+	  "ryhmä": "R II",
+	  "nimi": "Leikkauskelpoisuuden arviointi",
+	  "soveltamisohje": "Toimenpide tulee kysymykseen esimerkiksi tilanteissa, joissa terveyskeskuslääkäriltä etukäteen pyydetään arviota leikkauskelpoisuudesta silmäleikkauksia varten."
+	},
+	{
+	  "id": 206,
+	  "ryhmä": "R II",
+	  "nimi": "Suurten haavojen hoito",
+	  "soveltamisohje": "Toimenpide tarkoittaa tilanteita, joissa on kyseessä haavojen hoito, joihin liittyy esimerkiksi vaikeita ja työläitä reviisioita sekä syvempien kudosten kerroksittaista suturointia tai haavojen hoito vie huomattavasti aikaa."
+	},
+	{
+	  "id": 207,
+	  "ryhmä": "R II",
+	  "nimi": "Syvät koepalat ja ihonalaiset operaatiot",
+	  "soveltamisohje": "Toimenpidettä voidaan käyttää esimerkiksi poistettaessa ihonalaisia kasvaimia tai tehtäessä esimerkiksi imu- tai koekaavintoja, jos niitä ei tehdä selvästi leikkaussaliolosuhteissa, jolloin käytetään toimenpidettä R III 301."
+	},
+	{
+	  "id": 208,
+	  "ryhmä": "R II",
+	  "nimi": "Rasitus-EKG",
+	  "soveltamisohje": "Rasitusergometria luetaan tässä tarkoitetuksi toimenpiteeksi tilanteissa, joissa lääkäri itse valvoo ja tulkitsee tutkimuksen."
+	},
+	{
+	  "id": 210,
+	  "ryhmä": "R II",
+	  "nimi": "Allergiatestaus",
+	  "soveltamisohje": "Lääkärin suorittama allergiatestauksen arviointi jatkohoito­suosituksin."
+	},
+	{
+	  "id": 211,
+	  "ryhmä": "R II",
+	  "nimi": "Luuydinpunktio",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 212,
+	  "ryhmä": "R II",
+	  "nimi": "Kehon ontelon tyhjennys (keuhkot, vatsa)",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 216,
+	  "ryhmä": "R II",
+	  "nimi": "Resuskitaatiohoito",
+	  "soveltamisohje": "Toimenpide on korvattava kaikille elvytykseen osallistuville lääkäreille, kunhan asiapapereista, vähintään elvytyskertomuksesta, löytyy merkintä lääkärin osallistumisesta elvytykseen. Tätä toimenpidettä käytetään myös sähköisen rytminsiirron yhteydessä."
+	},
+	{
+	  "id": 217,
+	  "ryhmä": "R II",
+	  "nimi": "Ihonsiirto",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 219,
+	  "ryhmä": "R II",
+	  "nimi": "Tympanostomiaputken asennus",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 222,
+	  "ryhmä": "R II",
+	  "nimi": "Perkutaanisen rakkokatetrin asettaminen",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 223,
+	  "ryhmä": "R II",
+	  "nimi": "Parafimoosin reponointi",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 224,
+	  "ryhmä": "R II",
+	  "nimi": "Kuolinsyyn selvittäminen",
+	  "soveltamisohje": "Toimenpide ei tarkoita pelkästään kuolintodistuksen allekirjoittamista, vaan ohjeitten ja määräysten mukaista kuolinsyyn selvittelyä. Toimenpiteen korvaus ei tule kysymykseen esimerkiksi syöpäpotilaiden terminaalivaiheessa, jolloin kuolinsyy on etukäteen tiedossa ja kuolema on odotettavissa."
+	},
+	{
+	  "id": 225,
+	  "ryhmä": "R II",
+	  "nimi": "Arvio jatkuvan lääkityksen tarpeesta lausuntoineen",
+	  "soveltamisohje": "Toimenpide tulee kyseeseen tehtäessä arviota ja kirjoitettaessa lausuntoa kokonaan tai osittain korvattavien lääkkeiden osalta."
+	},
+	{
+	  "id": 226,
+	  "ryhmä": "R II",
+	  "nimi": "Huume-/humalatilatutkimus",
+	  "soveltamisohje": "Huume-/humalatilatutkimuksella tarkoitetaan kliinistä tutkimusta joko humalatilan tai huumeiden vaikutuksen selvittämiseksi. Mikäli kliinistä tutkimusta ei tehdä, vaan otetaan ainoastaan verinäyte, käytetään toimenpidettä R I 120. Mikäli tehdään sekä kliininen humalatilatutkimus että otetaan verinäyte, korvataan vain tämän ryhmän mukaisena toimenpiteenä."
+	},
+	{
+	  "id": 227,
+	  "ryhmä": "R II",
+	  "nimi": "Endoskopiatutkimukset",
+	  "soveltamisohje": "Endoskopiatutkimuksella tarkoitetaan esimerkiksi gastroskopiaa, rektoskopiaa, rektosigmoideoskopiaa ja kolonoskopiaa. Pelkkä proktoskopia on korvattava vain, mikäli tutkimus on vaativuudeltaan ja ajankäytöltään R II:n tasoa vastaava."
+	},
+	{
+	  "id": 228,
+	  "ryhmä": "R II",
+	  "nimi": "Takatamponaatio nenäverenvuodon hoitona",
+	  "soveltamisohje": "Takatamponaatio tulee korvattavaksi riippumatta siitä, onko teknisenä suorituksena harsosykeröillä tai pallokatetreilla tapahtuva toimenpide."
+	},
+	{
+	  "id": 230,
+	  "ryhmä": "R II",
+	  "nimi": "Kyynelteiden sondeeraus",
+	  "soveltamisohje": "Korvattavat toimenpiteet"
+	},
+	{
+	  "id": 231,
+	  "ryhmä": "R II",
+	  "nimi": "Murtumareponointi + kipsaus",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 233,
+	  "ryhmä": "R II",
+	  "nimi": "Keskuslaskimokanylointi",
+	  "soveltamisohje": ""
+	},
+	{
+	  "id": 301,
+	  "ryhmä": "R III",
+	  "nimi": "Leikkaussaliolosuhteissa tehtävät leikkaukset ja vastaavat toimenpiteet, jotka vaativat joko sentraalista johtopuudutusta, rektaalista, intramusku­laari- tai intravenöösianestesiaa tai lyhyttä inhalaatioanestesiaa tai laajaa infiltraatiopuudutusta.",
+	  "soveltamisohje": "Leikkaussaliolosuhteissa tehtävät leikkaukset ja vastaavat toimenpiteet, jotka vaativat joko sentraalista johtopuudutusta, rektaalista, intramusku­laari- tai intravenöösianestesiaa tai lyhyttä inhalaatioanestesiaa tai laajaa infiltraatiopuudutusta.\n\n*) Tutkimusten lisäksi maksetaan terveyskeskuksen lääkärille palkkiot ultraäänitutkimuksesta."
+	},
+	{
+	  "id": 303,
+	  "ryhmä": "R III",
+	  "nimi": "Saattohoidon kotikäynti",
+	  "soveltamisohje": "Toimenpiteellä tarkoitetaan vaikeasti sairaan terminaalivaiheen hoitoon liittyvää lääkärin kotikäyntiä. Tämän toimenpiteen lisäksi ei makseta liitteessä 1 määrättyjä käyntipalkkioita."
+	},
+	{
+	  "id": 304,
+	  "ryhmä": "R III",
+	  "nimi": "Lääkärin läsnäoloa vaativa sairaankuljetus",
+	  "soveltamisohje": "Toimenpiteellä tarkoitetaan niitä tilanteita, joissa lääkäri joutuu potilaan tilan vakavuuden takia saattamaan tämän seuraavaan hoitopaikkaan."
+	},
+	{
+	  "id": 305,
+	  "ryhmä": "R III",
+	  "nimi": "Infarktin liuotushoito",
+	  "soveltamisohje": "Toimenpide tarkoittaa terveyskeskuksessa diagnosoitua sydäninfarktia, sen liuotushoidon aloittamista ja toteuttamista."
+	}
+   ]
+
+   

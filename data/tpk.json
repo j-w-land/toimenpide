@@ -1,0 +1,1213 @@
+[
+  {
+    "idLong": "ryhmäR0 - R0",
+    "id": "R0",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "ryhmäR0",
+    "ryhmäTop": "XR",
+    "nimi": "R 0 - Terveyskeskusten kaikkiin lääkäreihin sovellettavat em. yleisohjeet huomioon ottaen",
+    "nimi2": "R 0",
+    "soveltamisohje": "na"
+  },
+  {
+    "idLong": "R0 - 001",
+    "id": "001",
+    "ryhmä": "R 0",
+    "ryhmä2": "R0",
+    "ryhmäTop": "XR",
+    "nimi": "Lääkärin potilaalle puhelimitse tai sähköisesti antama hoito-ohje, jonka lääkäri kirjaa sairauskertomusjärjestelmään",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä korvataan yleensä vastaanottokäynti. Toimenpidepalkkiota ei makseta, jos potilas tulee välittömästi soiton jälkeen hoitoon. Toimenpidettä ei korvata, mikäli ohje annetaan toisen henkilön välityksellä, paitsi niissä tilanteissa, joissa potilas ei esim. ikänsä, ymmärryksensä, kieliongelmiensa tai vammaisuutensa perusteella pysty itse hoitamaan asiaansa. Tällä toimenpiteellä ei tarkoiteta terveydenhuollon henkilöstön keskinäistä konsultointia."
+  },
+  {
+    "idLong": "R0 - 002",
+    "id": "002",
+    "ryhmä": "R 0",
+    "ryhmä2": "R0",
+    "ryhmäTop": "XR",
+    "nimi": "Lääkärin muulle terveydenhuollon ammattihenkilölle suorittama konsultointi, johon liittyy potilaan hoitoa koskeva sairauskertomusjärjestelmään kirjattava hoito-ohje.",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä korvataan yleensä vastaanottokäynti. Toimenpidepalkkiota ei makseta, jos potilas tulee konsultoinnin seurauksena välittömästi lääkärin hoitoon. Sairauskertomuksesta tulee löytyä saatu konsultaatiovastaus sekä merkintä konsultaation antavasta lääkäristä, jolle korvaus suoritetaan. Toimenpiteen käyttö perustuu terveydenhuollon ammattihenkilöstön tehtävä- ja työnjakomuutoksiin. Ne voivat liittyä lakimuutoksiin, organisaatiouudistuksiin tai palvelutarpeiden ja henkilöstön osaamisen parempaan hyödyntämiseen palvelu- ja henkilöstöstrategioiden toteuttamiseksi."
+  },
+  {
+    "idLong": "ryhmäRI - RI",
+    "id": "RI",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "ryhmäRI",
+    "ryhmäTop": "XR",
+    "nimi": "R I - Terveyskeskusten kaikkiin lääkäreihin sovellettavat em. yleisohjeet huomioon ottaen",
+    "nimi2": "R I",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 101",
+    "id": "101",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Lääkärin suorittama näöntutkimus silmänpohjatutkimuksineen",
+    "nimi2": "",
+    "soveltamisohje": "Tutkimuksella tarkoitetaan lääkärin suorittamaa näöntutkimusta silmänpohjatutkimuksineen. Tutkimus on korvattava toimenpide vain silloin, kun se tehdään potilaan valittaessa näkövikaan tai silmäsairauteen liittyviä oireita tai se muuten tehdään samalla perusteellisuudella esim. diabeetikoille vuositarkastuksen yhteydessä. Tätä toimenpidettä käytetään myös annettaessa dokumentoitu lausunto silmänpohjakuvista."
+  },
+  {
+    "idLong": "RI - 103",
+    "id": "103",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Lääkärin suorittama perusteellinen neurologinen tutkimus",
+    "nimi2": "",
+    "soveltamisohje": "Tutkimuksella tarkoitetaan yleislääkäritasoista perusteellista neurologista tutkimusta. Tutkimus on korvattava toimenpide vain silloin, kun se tehdään potilaan valittaessa neurologisia oireita tai on syytä epäillä, että potilaan oireiden takana voi olla neurologista selvittelyä vaativa syy taikka tutkimus tehdään vastaavalla perusteellisuudella muusta syystä. Toimenpide ei ole korvattava esim. silloin kun tutkimus tehdään orientoivana neurologisena tutkimuksena ajokorttitutkimuksen yhteydessä."
+  },
+  {
+    "idLong": "RI - 105",
+    "id": "105",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Kardiorespiratorinen kokonaisarvio laboratoriotutkimuksineen",
+    "nimi2": "",
+    "soveltamisohje": "Tutkimuksella tarkoitetaan esim. vuosittain tapahtuvaa, tavanomaista vastaanottokäyntiä perusteellisempaa sydän- tai keuhkosairauspotilaan tai verenpainepotilaan tutkimusta. Tutkimus on korvattava toimenpide vain silloin, kun sen yhteydessä tulkitaan EKG-, thorax-rtg, hengitysfunktiotutkimuksia ja/tai laboratoriotutkimuksia. Lisäksi tutkimus on korvattava toimenpide silloin, kun joudutaan tekemään akuutissa vaiheessa perusteellinen sydän- ja keuhkosairauspotilaan kliininen tutkimus ja voidaan ottaa ja tulkita edellä mainittuja lisätutkimuksia."
+  },
+  {
+    "idLong": "RI - 106",
+    "id": "106",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Pinnalliset leikkaukset, haavojen revisio ja suturaatio",
+    "nimi2": "",
+    "soveltamisohje": "Arvio haavojen suturoimisessa toimenpide R I 106:n ja R II 206:n välillä tehdään tapauskohtaisesti ottaen huomioon ajankäyttö ja toimenpiteen vaativuus. Mikäli pinnalliset leikkaukset kohdistuvat selvästi eri asioihin ja niiden hoitamiseen kuluu huomattavasti aikaa ja potilas esim. joudutaan valmistelemaan kahdesti toimenpiteeseen, voidaan periä kaksi tämän ryhmän mukaista palkkiota.\n\nTätä toimenpidettä käytetään myös esim. säärihaavapotilaan haavan revisiossa."
+  },
+  {
+    "idLong": "RI - 107",
+    "id": "107",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Incisiot, joissa puudutus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 108",
+    "id": "108",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Rikan poisto silmästä puudutuksessa",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 109",
+    "id": "109",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Korvakäytävän huuhtelu ja/tai imu",
+    "nimi2": "",
+    "soveltamisohje": "Tätä toimenpidettä käytetään myös vaikean externin otiitin imussa, huuhtelussa ja tamponaatiohoidossa."
+  },
+  {
+    "idLong": "RI - 110",
+    "id": "110",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Tärykalvopisto",
+    "nimi2": "",
+    "soveltamisohje": "Parasenteesi on yksi toimenpide, vaikka se tehtäisiin molempiin korviin."
+  },
+  {
+    "idLong": "RI - 111",
+    "id": "111",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Poskiontelopunktio/huuhtelu",
+    "nimi2": "",
+    "soveltamisohje": "Poskiontelopunktio on yksi toimenpide, vaikka se tehtäisiin molemmin puolin. Toimenpide on maksullinen myös silloin, kun on kyseessä antrostomia-potilas, jolle tehdään huuhtelu lavaatiokärjellä."
+  },
+  {
+    "idLong": "RI - 113",
+    "id": "113",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Kynsiin ja kynsivalleihin kohdistuvat leikkaukset, jotka tehdään puudutuksessa",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 114",
+    "id": "114",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Injektiohoidot muualle kuin lihaksiin tai ihon alle",
+    "nimi2": "",
+    "soveltamisohje": "Esimerkiksi erilaiset niveliin kohdistuvat lääkeinjektiot. Mikäli reumapotilaalle laitetaan lääkettä useampiin pikkuniveliin samanaikaisesti, on kyseessä vain yksi toimenpide. Myös injektiot, jotka kohdistetaan pehmytkudoksiin tarkoituksena esimerkiksi tulehdusprosessin rauhoittaminen jännekiinnitysalueella, ovat korvattavia toimenpiteitä."
+  },
+  {
+    "idLong": "RI - 116",
+    "id": "116",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Kipsaus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 117",
+    "id": "117",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Psykiatrisen tilan suunnitellut terapiakäynnit (esim. perheterapia)",
+    "nimi2": "",
+    "soveltamisohje": "Psykiatrisen tilan suunnitelluilla terapiakäynneillä tarkoitetaan käyntejä, jotka on etukäteen sovittu potilaan kanssa koskemaan tiettyä tavoitteellista hoitoa tai hoidon suunnittelua."
+  },
+  {
+    "idLong": "RI - 118",
+    "id": "118",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Lääkärin suorittama konsultointi, johon liittyy potilaan tutkiminen",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä tarkoitetaan niitä tilanteita, joissa esimerkiksi nuorempi tai kokemattomampi lääkäri kysyy kokeneemman kollegan mielipidettä potilaan hoidosta ja tämä konsultaation antava lääkäri suorittaa itse potilaan tutkimuksen. Sairauskertomuksesta tulee löytyä saatu konsultaatiovastaus sekä merkinnät konsultaation antavasta lääkäristä, jolle korvaus suoritetaan."
+  },
+  {
+    "idLong": "RI - 119",
+    "id": "119",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Lääkekapselin asettaminen ihon alle",
+    "nimi2": "",
+    "soveltamisohje": "Kyseeseen tulevat lähinnä ehkäisykapselit ja antabuskapselit. Tätä toimenpidettä käytetään myös poistettaessa esim. ehkäisykapseleita."
+  },
+  {
+    "idLong": "RI - 120",
+    "id": "120",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Suonensisäisen nestehoidon aloittaminen",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä tarkoitetaan päätöstä suonensisäisen nestehoidon aloittamisesta siihen liittyvine mahdollisine lääkehoitoineen."
+  },
+  {
+    "idLong": "RI - 121",
+    "id": "121",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Koagulaatiohoidot (nenän limakalvot, kohdunsuu, pinnalliset iho­muutokset)",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 123",
+    "id": "123",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Gynekologinen tutkimus ja siihen liittyvä irtosolunäytteen otto",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteeseen kuuluvalla irtosolunäytteen otolla tarkoitetaan lähinnä PAPA-tutkimuksia. Joukkotutkimuksena otettuja irtosolunäytteitä ja äitiysneuvoloissa rutiininomaisesti otettuja irtosolunäytteitä ei kuitenkaan korvata toimenpiteinä. Korvattava toimenpide solunäytteenotto on myös silloin, kun lääkäri tekee sen GC-näytteen saamiseksi tapauksissa, joissa hän itse suorittaa myös näytteen mikroskopoinnin."
+  },
+  {
+    "idLong": "RI - 124",
+    "id": "124",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Akupunktiohoidot",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 126",
+    "id": "126",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Silmänpaineen mittaus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 127",
+    "id": "127",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Äänihuulten tutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 128",
+    "id": "128",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Luxoituneen nivelen reponointi",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 129",
+    "id": "129",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Kierukan asettaminen",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 130",
+    "id": "130",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Tamponaatiohoidot (nenään tai korvaan)",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 131",
+    "id": "131",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Polyypin poisto",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 132",
+    "id": "132",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Vierasesineen poisto kehon luonnollisista aukoista ja onteloista",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 133",
+    "id": "133",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Otomikroskopia korvamikroskooppia käyttäen",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 134",
+    "id": "134",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Ohutneulabiopsia",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 136",
+    "id": "136",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Rakkopunktio",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 137",
+    "id": "137",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Nivelpunktio",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 139",
+    "id": "139",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Karsastuksen perusteellinen tutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 141",
+    "id": "141",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Peräpukamiin kohdistuva ei-leikkauksellinen toimenpide (ligaatio, kryokoagulaatio, trombosoivat injektiohoidot)",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RI - 143",
+    "id": "143",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Fyysisen, psyykkisen ja sosiaalisen toimintakyvyn selvittely, arviointi ja hoidon suunnittelu sekä hoitosuunnitelman laadinta",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpide edellyttää yleensä potilaan omakohtaista tutkimista. Toimenpide tulee kysymykseen esimerkiksi monisairaan potilaan lääke- ja muun hoidon kokonaisuutta arvioitaessa ja/tai suunniteltaessa, vanhuspotilaan hoitopaikkaa/jatkohoitopaikkaa selviteltäessä ja/tai suunniteltaessa ja potilaslaissa tarkoitettua hoitosuunnitelmaa laadittaessa. Toimenpiteestä syntyy tarvittavat merkinnät sairauskertomukseen ja/tai syntyy erillinen todistus/lausunto."
+  },
+  {
+    "idLong": "RI - 145",
+    "id": "145",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Elävän henkilön kliininen (oikeuslääkeopillinen) tutkimus",
+    "nimi2": "",
+    "soveltamisohje": "Tutkimus tulee kyseeseen esimerkiksi ulkoisten pahoinpitelyvammojen tutkimuksena."
+  },
+  {
+    "idLong": "RI - 146",
+    "id": "146",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Ensikäynti äitiysneuvolassa",
+    "nimi2": "",
+    "soveltamisohje": "Käyntiin liittyy aina asiakkaan terveydentilan arvio ja raskauden keston määritys. Lisäksi yleensä käyntiin liittyy yleinen raskauden riskien kartoitus, seulontavalistus, tupakka-alkoholi-valistus, ohjeet ravinnosta, liikunnasta jne."
+  },
+  {
+    "idLong": "RI - 147",
+    "id": "147",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Lapsille suoritettava viimeinen neuvolatarkastus ennen kouluunmenoa",
+    "nimi2": "",
+    "soveltamisohje": "Tarkastus tehdään 4 vuoden iässä ja siihen kuuluu psyykkisen ja fyysisen kehitystason arviointi sekä sosiaalisten taitojen arviointi ja mahdollisesti tarvittavien tukitoimenpiteiden suunnittelu. Lapsen ja vanhempien suhdetta ja lasten itsenäistymistä tuetaan ja opastetaan ja ohjataan hoitoon kasvatusongelmissa."
+  },
+  {
+    "idLong": "RI - 148",
+    "id": "148",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Koulu- ja opiskelijaterveydenhuoltoon kuuluva tarkastus, jonka yhteydessä tehdään lausunto",
+    "nimi2": "",
+    "soveltamisohje": "Tarkastus tehdään koulun loppuvaiheessa ja sen yhteydessä voidaan tehdä perusteltuja kannanottoja tai lausuntoja oppilaan soveltuvuudesta suunnittelemiinsa ammatteihin tai tehdään ns. nuorison terveystodistus."
+  },
+  {
+    "idLong": "RI - 149",
+    "id": "149",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Hormonikorvaushoidon aloittaminen joko naiselle tai miehelle",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä tarkoitetaan käyntiä, jonka yhteydessä tehdään kliininen tutkimus ja selvitetään mahdollisen hoidon edut ja haitat sekä suunnitellaan hoidon toteutus ja sovitaan jatkoseurannasta."
+  },
+  {
+    "idLong": "RI - 150",
+    "id": "150",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Verenkierron tutkiminen Doppler-UÄ -laitteen avulla.",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpidettä käytetään tutkittaessa esimerkiksi diabeetikon valtimoverenkiertoa tai säärihaavojen etiologiaa."
+  },
+  {
+    "idLong": "RI - 151",
+    "id": "151",
+    "ryhmä": "R I",
+    "ryhmä2": "RI",
+    "ryhmäTop": "XR",
+    "nimi": "Muistisairauslääkityksen aloittaminen muistisairaalle potilaalle",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä tarkoitetaan käyntiä, jonka yhteydessä lääkkeillä hoidettavaa muistisairautta (Alzheimerin tauti, Parkinsonin tautiin liittyvä dementia) sairastavalle potilaalle tehdään kliininen tutkimus ja selvitetään lääkehoidon indikaatioiden olemassaolo, mahdollisen hoidon edut ja haitat, sekä suunnitellaan hoidon toteutus ja sovitaan jatkoseurannasta.\n\nToimenpide on korvattava neurologian ja geriatrian alan erikoislääkärille lääkehoidon aloittamista koskevan päätöksenteon osalta. Toimenpidettä ei kuitenkaan käytetä, jos samassa yhteydessä tehdään lausunto lääkehoidon korvattavuudesta (R II 225).\n\nLisäksi toimenpide on korvattava myös muille terveyskeskuksessa työskenteleville lääkäreille lääkehoidon muutosta koskevan arvion ja päätöksen yhteydessä (hoidon tehostaminen tai vaihtaminen, yhdistelmähoidon aloittaminen, tarpeettoman lääkehoidon lopettaminen)."
+  },
+  {
+    "idLong": "RyhmäRII - RII",
+    "id": "RII",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "RyhmäRII",
+    "ryhmäTop": "XR",
+    "nimi": "R II - Terveyskeskusten kaikkiin lääkäreihin sovellettavat em. yleisohjeet huomioon ottaen",
+    "nimi2": "R II",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RII - 201",
+    "id": "201",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Fyysisen, psyykkisen ja sosiaalisen toimintakyvyn selvittely, arviointi ja hoidonsuunnittelu.",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä tarkoitetaan toimintakyvyn ja hoidontarpeen laajaa selvittelyä ja tähän liittyvää hoitosuunnitelman tekemistä. Toimenpidettä käytetään vastaavissa tilanteissa kuin R I 143 silloin, kun toimenpide vastaa ajankäytöltään ja vaativuudeltaan palkkioryhmän R II toimenpidettä. Toimenpidettä voidaan käyttää esimerkiksi harkittaessa M I lausunnon (tarkkailulähete M I) antamista tai arvioitaessa mahdollista lasten huostaanottoa."
+  },
+  {
+    "idLong": "RII - 202",
+    "id": "202",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Kokonaisvaltainen kuntoutusarviointi",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä tarkoitetaan laajaa toimintakyvyn arviointia, johon yleensä liittyy kuntoutussuunnitelman tekeminen käyttäen esimerkiksi muuta kuntoutushenkilökuntaa apuna. Veteraanikuntoutusta varten tarvittavat tutkimukset ja lausunnot katsotaan tämän ryhmän mukaisiksi, mikäli ne tehdään viranomaisen asiasta antamien ohjeiden perusteella ja veteraanikuntoutuksen valinnan kriteerit ovat ensisijaisesti lääketieteelliset. Mikäli näin ei ole, käytetään toimenpidettä R I 143."
+  },
+  {
+    "idLong": "RII - 203",
+    "id": "203",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Työkyvyn arviointi",
+    "nimi2": "",
+    "soveltamisohje": "Työkyvyn arvioinnilla tarkoitetaan laajaa, perusteellista työkyvyn arviointia riippumatta siitä, mikä on lopputulos. Toimenpide ei tule kyseeseen määrättäessä lyhytaikaista sairauslomaa esimerkiksi SVA-lomakkeella. Rutiininomainen työhöntulotarkastus ei myöskään ole tässä tarkoitettu toimenpide. Toimenpiteeksi ei lueta esimerkiksi asevelvollisten palvelukelpoisuuden selvittämiseksi tehtyjä tarkastuksia tai tavanomaisen T-lausunnon tekemistä. E-lausunnolla ilmaistu työkyvyn arvio on tässä tarkoitettu toimenpide vain, mikäli työkykyä joudutaan laajemmin tutkimaan ja perustelemaan."
+  },
+  {
+    "idLong": "RII - 204",
+    "id": "204",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Leikkauskelpoisuuden arviointi",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpide tulee kysymykseen esimerkiksi tilanteissa, joissa terveyskeskuslääkäriltä etukäteen pyydetään arviota leikkauskelpoisuudesta silmäleikkauksia varten."
+  },
+  {
+    "idLong": "RII - 206",
+    "id": "206",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Suurten haavojen hoito",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpide tarkoittaa tilanteita, joissa on kyseessä haavojen hoito, joihin liittyy esimerkiksi vaikeita ja työläitä reviisioita sekä syvempien kudosten kerroksittaista suturointia tai haavojen hoito vie huomattavasti aikaa."
+  },
+  {
+    "idLong": "RII - 207",
+    "id": "207",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Syvät koepalat ja ihonalaiset operaatiot",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpidettä voidaan käyttää esimerkiksi poistettaessa ihonalaisia kasvaimia tai tehtäessä esimerkiksi imu- tai koekaavintoja, jos niitä ei tehdä selvästi leikkaussaliolosuhteissa, jolloin käytetään toimenpidettä R III 301."
+  },
+  {
+    "idLong": "RII - 208",
+    "id": "208",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Rasitus-EKG",
+    "nimi2": "",
+    "soveltamisohje": "Rasitusergometria luetaan tässä tarkoitetuksi toimenpiteeksi tilanteissa, joissa lääkäri itse valvoo ja tulkitsee tutkimuksen."
+  },
+  {
+    "idLong": "RII - 210",
+    "id": "210",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Allergiatestaus",
+    "nimi2": "",
+    "soveltamisohje": "Lääkärin suorittama allergiatestauksen arviointi jatkohoito­suosituksin."
+  },
+  {
+    "idLong": "RII - 211",
+    "id": "211",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Luuydinpunktio",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RII - 212",
+    "id": "212",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Kehon ontelon tyhjennys (keuhkot, vatsa)",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RII - 216",
+    "id": "216",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Resuskitaatiohoito",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpide on korvattava kaikille elvytykseen osallistuville lääkäreille, kunhan asiapapereista, vähintään elvytyskertomuksesta, löytyy merkintä lääkärin osallistumisesta elvytykseen. Tätä toimenpidettä käytetään myös sähköisen rytminsiirron yhteydessä."
+  },
+  {
+    "idLong": "RII - 217",
+    "id": "217",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Ihonsiirto",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RII - 219",
+    "id": "219",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Tympanostomiaputken asennus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RII - 222",
+    "id": "222",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Perkutaanisen rakkokatetrin asettaminen",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RII - 223",
+    "id": "223",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Parafimoosin reponointi",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RII - 224",
+    "id": "224",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Kuolinsyyn selvittäminen",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpide ei tarkoita pelkästään kuolintodistuksen allekirjoittamista, vaan ohjeitten ja määräysten mukaista kuolinsyyn selvittelyä. Toimenpiteen korvaus ei tule kysymykseen esimerkiksi syöpäpotilaiden terminaalivaiheessa, jolloin kuolinsyy on etukäteen tiedossa ja kuolema on odotettavissa."
+  },
+  {
+    "idLong": "RII - 225",
+    "id": "225",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Arvio jatkuvan lääkityksen tarpeesta lausuntoineen",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpide tulee kyseeseen tehtäessä arviota ja kirjoitettaessa lausuntoa kokonaan tai osittain korvattavien lääkkeiden osalta."
+  },
+  {
+    "idLong": "RII - 226",
+    "id": "226",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Huume-/humalatilatutkimus",
+    "nimi2": "",
+    "soveltamisohje": "Huume-/humalatilatutkimuksella tarkoitetaan kliinistä tutkimusta joko humalatilan tai huumeiden vaikutuksen selvittämiseksi. Mikäli kliinistä tutkimusta ei tehdä, vaan otetaan ainoastaan verinäyte, käytetään toimenpidettä R I 120. Mikäli tehdään sekä kliininen humalatilatutkimus että otetaan verinäyte, korvataan vain tämän ryhmän mukaisena toimenpiteenä."
+  },
+  {
+    "idLong": "RII - 227",
+    "id": "227",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Endoskopiatutkimukset",
+    "nimi2": "",
+    "soveltamisohje": "Endoskopiatutkimuksella tarkoitetaan esimerkiksi gastroskopiaa, rektoskopiaa, rektosigmoideoskopiaa ja kolonoskopiaa. Pelkkä proktoskopia on korvattava vain, mikäli tutkimus on vaativuudeltaan ja ajankäytöltään R II:n tasoa vastaava."
+  },
+  {
+    "idLong": "RII - 228",
+    "id": "228",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Takatamponaatio nenäverenvuodon hoitona",
+    "nimi2": "",
+    "soveltamisohje": "Takatamponaatio tulee korvattavaksi riippumatta siitä, onko teknisenä suorituksena harsosykeröillä tai pallokatetreilla tapahtuva toimenpide."
+  },
+  {
+    "idLong": "RII - 230",
+    "id": "230",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Kyynelteiden sondeeraus",
+    "nimi2": "",
+    "soveltamisohje": "Korvattavat toimenpiteet"
+  },
+  {
+    "idLong": "RII - 231",
+    "id": "231",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Murtumareponointi + kipsaus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RII - 233",
+    "id": "233",
+    "ryhmä": "R II",
+    "ryhmä2": "RII",
+    "ryhmäTop": "XR",
+    "nimi": "Keskuslaskimokanylointi",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RyhmäRIII - RIII",
+    "id": "RIII",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "RyhmäRIII",
+    "ryhmäTop": "XR",
+    "nimi": "R III - Terveyskeskusten kaikkiin lääkäreihin sovellettavat em. yleisohjeet huomioon ottaen",
+    "nimi2": "R III",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RIII - 301",
+    "id": "301",
+    "ryhmä": "R III",
+    "ryhmä2": "RIII",
+    "ryhmäTop": "XR",
+    "nimi": "Leikkaussaliolosuhteissa tehtävät leikkaukset ja vastaavat toimenpiteet, jotka vaativat joko sentraalista johtopuudutusta, rektaalista, intramusku­laari- tai intravenöösianestesiaa tai lyhyttä inhalaatioanestesiaa tai laajaa infiltraatiopuudutusta.",
+    "nimi2": "",
+    "soveltamisohje": "Leikkaussaliolosuhteissa tehtävät leikkaukset ja vastaavat toimenpiteet, jotka vaativat joko sentraalista johtopuudutusta, rektaalista, intramusku­laari- tai intravenöösianestesiaa tai lyhyttä inhalaatioanestesiaa tai laajaa infiltraatiopuudutusta.\n\n*) Tutkimusten lisäksi maksetaan terveyskeskuksen lääkärille palkkiot ultraäänitutkimuksesta."
+  },
+  {
+    "idLong": "RIII - 303",
+    "id": "303",
+    "ryhmä": "R III",
+    "ryhmä2": "RIII",
+    "ryhmäTop": "XR",
+    "nimi": "Saattohoidon kotikäynti",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä tarkoitetaan vaikeasti sairaan terminaalivaiheen hoitoon liittyvää lääkärin kotikäyntiä. Tämän toimenpiteen lisäksi ei makseta liitteessä 1 määrättyjä käyntipalkkioita."
+  },
+  {
+    "idLong": "RIII - 304",
+    "id": "304",
+    "ryhmä": "R III",
+    "ryhmä2": "RIII",
+    "ryhmäTop": "XR",
+    "nimi": "Lääkärin läsnäoloa vaativa sairaankuljetus",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpiteellä tarkoitetaan niitä tilanteita, joissa lääkäri joutuu potilaan tilan vakavuuden takia saattamaan tämän seuraavaan hoitopaikkaan."
+  },
+  {
+    "idLong": "RIII - 305",
+    "id": "305",
+    "ryhmä": "R III",
+    "ryhmä2": "RIII",
+    "ryhmäTop": "XR",
+    "nimi": "Infarktin liuotushoito",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpide tarkoittaa terveyskeskuksessa diagnosoitua sydäninfarktia, sen liuotushoidon aloittamista ja toteuttamista."
+  },
+  {
+    "idLong": "RyhmäRUI - RUI",
+    "id": "RUI",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "RyhmäRUI",
+    "ryhmäTop": "RU",
+    "nimi": "RU I - Muihin terveyskeskusten lääkäreihin kuin röntgenerikoislääkäreihin\nsovellettavat radiologiset toimenpiteet",
+    "nimi2": "RU I",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RUI - 101",
+    "id": "101",
+    "ryhmä": "RU I",
+    "ryhmä2": "RUI",
+    "ryhmäTop": "RU",
+    "nimi": "Ylävatsan yleistutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RUI - 102",
+    "id": "102",
+    "ryhmä": "RU I",
+    "ryhmä2": "RUI",
+    "ryhmäTop": "RU",
+    "nimi": "Alavatsan yleistutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RUI - 103",
+    "id": "103",
+    "ryhmä": "RU I",
+    "ryhmä2": "RUI",
+    "ryhmäTop": "RU",
+    "nimi": "Jäännösvirtsan tutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RUI - 104",
+    "id": "104",
+    "ryhmä": "RU I",
+    "ryhmä2": "RUI",
+    "ryhmäTop": "RU",
+    "nimi": "Ehkäisykierukan paikantaminen",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RUI - 105",
+    "id": "105",
+    "ryhmä": "RU I",
+    "ryhmä2": "RUI",
+    "ryhmäTop": "RU",
+    "nimi": "Varhaisraskauden toteaminen",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RUI - 106",
+    "id": "106",
+    "ryhmä": "RU I",
+    "ryhmä2": "RUI",
+    "ryhmäTop": "RU",
+    "nimi": "Yksittäinen mittakontrolli",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RyhmäRUII - RUII",
+    "id": "RUII",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "RyhmäRUII",
+    "ryhmäTop": "RU",
+    "nimi": "RU II - Muihin terveyskeskusten lääkäreihin kuin röntgenerikoislääkäreihin\nsovellettavat radiologiset toimenpiteet",
+    "nimi2": "RU II",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RUII - 201",
+    "id": "201",
+    "ryhmä": "RU II",
+    "ryhmä2": "RUII",
+    "ryhmäTop": "RU",
+    "nimi": "Sydämen ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": "Toimenpide edellyttää erikoislääkärin perehtyneisyyttä sydämen\n ultraäänitutkimuksiin"
+  },
+  {
+    "idLong": "RyhmäRRI - RRI",
+    "id": "RRI",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "RyhmäRRI",
+    "ryhmäTop": "RR",
+    "nimi": "RR I - Terveyskeskusten röntgenerikoislääkäreihin sovellettavat radiologiset\ntoimenpiteet",
+    "nimi2": "RR I",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 101",
+    "id": "101",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Skolioositutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 102",
+    "id": "102",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Nivelen rasitustutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 103",
+    "id": "103",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Hypofarynx",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 104",
+    "id": "104",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Ruokatorven kaksoiskontrastitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 105",
+    "id": "105",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Mahalaukun kaksoiskontrastitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 106",
+    "id": "106",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Ohutsuolipasaasi",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 107",
+    "id": "107",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Urografia",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 108",
+    "id": "108",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Akuutti urografia",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 109",
+    "id": "109",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Miktiokystografia",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 110",
+    "id": "110",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Ylävatsan ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 111",
+    "id": "111",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Alavatsan ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 112",
+    "id": "112",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Kaulan alueen ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 113",
+    "id": "113",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Nivelten ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 114",
+    "id": "114",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Lihasten ja jänteiden ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 115",
+    "id": "115",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Pehmytosaresistenssin ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 116",
+    "id": "116",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Virtsaelinten ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 117",
+    "id": "117",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Kivesten ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 118",
+    "id": "118",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Prostatan ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 119",
+    "id": "119",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Munuaisten ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 120",
+    "id": "120",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Kilpirauhasen ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRI - 121",
+    "id": "121",
+    "ryhmä": "RR I",
+    "ryhmä2": "RRI",
+    "ryhmäTop": "RR",
+    "nimi": "Sylkirauhasen ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RyhmäRRII - RRII",
+    "id": "RRII",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "RyhmäRRII",
+    "ryhmäTop": "RR",
+    "nimi": "RR II - Terveyskeskusten röntgenerikoislääkäreihin sovellettavat radiologiset\ntoimenpiteet",
+    "nimi2": "RR II",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 201",
+    "id": "201",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Usean nivelen rasitustutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 202",
+    "id": "202",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Fistelitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 203",
+    "id": "203",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Mammografia",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 204",
+    "id": "204",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Mahalaukun kaksoiskontrasti, vaativa",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 206",
+    "id": "206",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Ultraääniohjattu ONB pinnalliseen elimeen",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 207",
+    "id": "207",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Rintarauhasten ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 208",
+    "id": "208",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Raajalaskimoiden ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 209",
+    "id": "209",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Sydämen ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRII - 210",
+    "id": "210",
+    "ryhmä": "RR II",
+    "ryhmä2": "RRII",
+    "ryhmäTop": "RR",
+    "nimi": "Alaraajan venografia",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RyhmäRRIII - RRIII",
+    "id": "RRIII",
+    "ryhmä": "Ryhmä",
+    "ryhmä2": "RyhmäRRIII",
+    "ryhmäTop": "RR",
+    "nimi": "RR III - Terveyskeskusten röntgenerikoislääkäreihin sovellettavat radiologiset\ntoimenpiteet",
+    "nimi2": "RR III",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRIII - 301",
+    "id": "301",
+    "ryhmä": "RR III",
+    "ryhmä2": "RRIII",
+    "ryhmäTop": "RR",
+    "nimi": "Artrografia",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRIII - 302",
+    "id": "302",
+    "ryhmä": "RR III",
+    "ryhmä2": "RRIII",
+    "ryhmäTop": "RR",
+    "nimi": "Paksunsuolen kaksoiskontrastitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRIII - 303",
+    "id": "303",
+    "ryhmä": "RR III",
+    "ryhmä2": "RRIII",
+    "ryhmäTop": "RR",
+    "nimi": "Lumbaalinen varjoainemyelografia",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRIII - 304",
+    "id": "304",
+    "ryhmä": "RR III",
+    "ryhmä2": "RRIII",
+    "ryhmäTop": "RR",
+    "nimi": "Vaativa abdomenin ultraäänitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "RRIII - 305",
+    "id": "305",
+    "ryhmä": "RR III",
+    "ryhmä2": "RRIII",
+    "ryhmäTop": "RR",
+    "nimi": "Ohutsuolen kaksoiskontrastitutkimus",
+    "nimi2": "",
+    "soveltamisohje": ""
+  },
+  {
+    "idLong": "spaceholder",
+    "id": "",
+    "ryhmä": "",
+    "ryhmä2": "",
+    "ryhmäTop": "",
+    "nimi": "",
+    "nimi2": "",
+    "soveltamisohje": ""
+  }
+
+ ]
