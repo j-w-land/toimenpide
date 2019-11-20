@@ -1,3 +1,5 @@
+let tpKooditActHtml = []
+
 // alusta data // lisää posid objekti // alusta data kolmeen eri ryhmään // formatoi ja lisää teksi objekti
 let activeInfoStore = "";
 const initTPK = async (initRyhmätStore) => { //searchText
@@ -10,7 +12,7 @@ const initTPK = async (initRyhmätStore) => { //searchText
     let combinedList = [];
 
 
-    const res = await fetch('../toimenpide/data/tpk.json');
+    const res = await fetch('../data/tpk.json');
     let xtpkoodit = await res.json(); // kaikki data tpkoodit-arrayssa
 
     let tpKooditList = [];
@@ -57,8 +59,8 @@ const initTPK = async (initRyhmätStore) => { //searchText
     for (i = 0; i<combinedList.length; i++) {
         combinedList[i].posid = i+1;
     };
-    combinedList[combinedList.length] = {
-        "idLong": "spaceholder", "id": "", "ryhmä": "", "ryhmä2": "", "ryhmäTop": "", "nimi": "", "nimi2": "", "soveltamisohje": ""};
+/*     combinedList[combinedList.length] = {
+        "idLong": "spaceholder", "id": "", "ryhmä": "", "ryhmä2": "", "ryhmäTop": "", "nimi": "", "nimi2": "", "soveltamisohje": ""}; */
     tpKooditActData = JSON.parse(JSON.stringify(combinedList));
     initStyleTPK(tpKooditActData);
 
@@ -66,6 +68,9 @@ const initTPK = async (initRyhmätStore) => { //searchText
 
 // Alusta html-muotilu line itemeille ja varastoi tpkoodit-array:in.
 const initStyleTPK = datatp => {
+    //lisätään spaceholder datan loppuun aluksi:
+    datatp[datatp.length] = {
+        "idLong": "spaceholder", "id": "", "ryhmä": "", "ryhmä2": "", "ryhmäTop": "", "nimi": "", "nimi2": "", "soveltamisohje": ""};
     let i = 0;
     while(i<datatp.length) {
         let defaultString = [];
@@ -220,18 +225,15 @@ defaultSpanStyleRyhma = '"text-success"';
         i = i +1;
     };
 
-    console.log(datatp);
 
     tpKooditAct = JSON.parse(JSON.stringify(datatp));
-    //console.log(tpKooditAct);
-tpKooditActInit(datatp);
+tpKooditActInit(tpKooditAct);
 };
 
-    const tpKooditActInit = () => {
-    console.log(tpKooditAct);
+const tpKooditActInit = (tpKooditAct) => {
     let i2 = 0;
     tpKooditActHtml = [];
-    while (i2<tpKooditAct.length) { //vikaan obketiin ei tule html-dataa koska se on vain placeholder.
+    while (i2<tpKooditAct.length /* && tpKooditAct[i2].idLong !="spaceholder" */ ) { //vikaan obketiin ei tule html-dataa koska se on vain placeholder.
     tpKooditActHtml[i2] = format(tpKooditAct[i2].html);
     i2 = i2+1
     };
@@ -256,18 +258,16 @@ const outputHtml = matches => {
         tpKooditAct = format(matchesHtml);
         tpKooditAct[matchesHtml.length] = {};
         tpKooditAct[matchesHtml.length].html = ["e"];
-        console.log(tpKooditAct)
         tpKooditActHtmlFunc();
 };
 
 //;
 
-const outputDefaultHtml = tpKooditActHtml => {
+const outputDefaultHtml = tpKooditActHtmlH => {
 
     //html = tpKooditActHtml.pop()
-    console.lo
-    tpKooditActHtml.pop(); // poista htmlarraysta viimeinen objekti koska se on vain placeholderina.
-    html = tpKooditActHtml.join('');
+    tpKooditActHtmlH.pop(); // poista htmlarraysta viimeinen objekti koska se on vain placeholderina.
+    html = tpKooditActHtmlH.join('');
     matchList.innerHTML = html;
 
     let buttonArray = storeLocal.storeUpDownLoad('initRyhmät');
@@ -282,9 +282,7 @@ const outputDefaultHtml = tpKooditActHtml => {
     //filterButtons.innerHTML = "";
     filterButtons.innerHTML = `<button id="XRbutton" type="button" class= "btn btn-primary ${buttonArrayFormat[0]} ${buttonArraySize[0]}">R0-R III</button> <button id="RUbutton" type="button" class= "btn btn-success ${buttonArrayFormat[1]} ${buttonArraySize[1]}">RU I-RU II</button> <button id="RRbutton" type="button" class= "btn btn-warning ${buttonArrayFormat[2]} ${buttonArraySize[2]}">RR I-RR III</button> <i id="filterInfoButton" class="fas fa-info-circle fa-w-16 fa-2x" style="margin-left: 1%; margin-bottom: -0.5%"></i>` ;
 
-    console.log(tpKooditActHtml);
 
-    
 };
 
 const hoverAction = (item) => {
@@ -292,11 +290,9 @@ const hoverAction = (item) => {
 
     if (elementHovered.id == null) {return}; // ei vielä oikein toimi!!!
     activeitem = elementHovered;
-    console.log(elementHovered);
     if (elementHovered.id != 'match-list' && elementHovered.id != 'card-text' && elementHovered.id != 'card-title' && elementHovered.id != 'card-body' && elementHovered.className != 'card-text' && elementHovered.className != 'card-body' && elementHovered.className != 'card-title' && elementHovered.className != 'card-header' && elementHovered.className != 'card-header' && elementHovered.className !=  'card bg-light mb-3 mt-3' && elementHovered.className !=  'text-success') { // kato jos tähän saisi järkevämmän ehdon...
         
         let selectactiveIndex = tpKooditAct.findIndex(x => x.idLong === activeitem.id);
-        console.log(selectactiveIndex)
         hoverExecution(selectactiveIndex);
     } else {
         console.log("stop")
@@ -305,27 +301,22 @@ const hoverAction = (item) => {
     };
 
 const hoverExecution = (activeitem) => {
-    console.log(activeitem)
 
     if (tpKooditAct[activeitem].ryhmä == "Ryhmä") {
         return;
     } else {
-        console.log(activeInfoStore)
 
         activeInfo = format([tpKooditAct[activeitem]]); //otetaan aktiivisen itemin tiedot arraysta
         //jos käyttäjä klikkaa aktiivista itemia niin se sulkeutuu:
         if (activeInfo[0].posid === activeInfoStore) { //jos klikattu item on sama kuin mikä on edellinen aktiivi item niin ajaa html päivityksen niin että aktiivi poistuu.
-            console.log("318")
             tpKooditActHtmlFunc()
             activeInfoStore = ""; // tallentaa muistiin että nyt ei ole aktiivia ollenkaan
             return;
         } else { // jos uusi klikkaus ei ollut akiivi niin tallentaa uuden aktiivin storeen.
         activeInfoStore = activeInfo[0].posid
-        console.log(activeInfoStore);
     }
 
         let ryhmakey = format(activeInfo[0].ryhmä.replace(/\s+/g, '')); // poista ryhmän nimestä välilyönti
-        console.log(ryhmakey)
         
         if (activeInfo[0].soveltamisohje === "") {
             soveltamisohjeteksti = "Ei lisäohjeita"
@@ -400,7 +391,7 @@ const activePositionFunc = (method, stat, value, actPosition) => {
 };
 
 const tpKooditActHtmlFuncXX = (method, activeitempos, hoverActiveItem, hoverActiveInfo) => {
-    console.log(method, activeitempos, hoverActiveItem, hoverActiveInfo)
+    //console.log(method, activeitempos, hoverActiveItem, hoverActiveInfo)
     if (method =="searched") {
         tpKooditActStoreX = undefined;
         return
@@ -420,19 +411,11 @@ const tpKooditActHtmlFuncXX = (method, activeitempos, hoverActiveItem, hoverActi
     tpKooditActHtmlX[i2] = format(tpKooditActStore[i2].html);
     i2 = i2+1
     };
-    console.log(hoverActiveItem)
 
     tpKooditActHtmlX[activeitempos] = format(hoverActiveItem);
     tpKooditActHtmlX[activeitempos+1] = format(hoverActiveInfo);
 
-    console.log(tpKooditActHtmlX[activeitempos])
-    console.log(tpKooditActHtmlX[activeitempos+1])
-
     let i3 = activeitempos+2
-    console.log(tpKooditActHtmlX)
-    console.log(i3);
-    console.log(tpKooditAct.length+1)
-    console.log(tpKooditActStore)
     while(i3<tpKooditAct.length+1) {
         tpKooditActHtmlX[i3] = format(tpKooditActStore[i3-1].html);
         i3 = i3+1;
@@ -472,7 +455,7 @@ const nomatchesHtml = () => {
 };
 
 const etsiTpryhmat = async () => {
-    res = await fetch('../toimenpide/data/tpryhmat.json');
+    res = await fetch('../data/tpryhmat.json');
     tpryhmat = await res.json();
     };
     etsiTpryhmat();
@@ -536,6 +519,7 @@ function setUpButtonListen() {
     }
     );
 
+ 
     helpButton.addEventListener('click', () => {
         
         if (typeof iconStatus === typeof undefined) {iconStatus = -1} ; //-1 -> info on pois päältä, 1= info on auki
@@ -547,7 +531,7 @@ function setUpButtonListen() {
 
         
             /* </ul><h4 class="card-title">Listan suodattaminen </h4><ul>  <li class=""> Klikkamalla hakukentän yläpuolella olevaa valintanappulaa voit suodataa pois kyseisen luokan toimenpiteet </li> <li class="card-text"> klikkaamalla toimenpidettä aukeaa sen lisätiedot </li> </ul> */
-            matchList.insertAdjacentHTML('beforebegin', helpPopInfo);
+             matchList.insertAdjacentHTML('beforebegin', helpPopInfo);
         } else if (iconStatus === 1) {
             iconStatus = -1*iconStatus;
             let removeEl = document.getElementById("helpPopUp");
@@ -556,7 +540,8 @@ function setUpButtonListen() {
 
         } else {console.log("error status ei löytynyt..?")};
 
-    })
+    }) 
+     
 };
 
 const format = (obj) => {

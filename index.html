@@ -5,8 +5,10 @@
     <link rel="stylesheet" href = "css/sandstone2.css">
     <link rel="stylesheet" href = "css/fontawesome.css">
     <link rel="stylesheet" href = "css/solid.css">
+    <link rel="stylesheet" href = "css/oma.css">
     <script defer src="assets/JS/solid.js"></script>
     <script defer src="assets/JS/fontawesome.js"></script>
+    <script defer src="JS/omacssScript.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,50 +23,44 @@
 </head>
 
 <body id = "container" class="container"; style="background-color:#F5F5F5; margin-top: 10px;" > 
-    <!-- Navbar alkaa -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"; style="margin-top: 0%; margin-bottom: -23px;">
-            <a class="navbar-brand" href="#">Navbar</a>
-           <!--  <a class="navbar-brand" href="#" style="font-size: 50%;; width: 80px; float:left; margin-right:80%">valikko </a> -->
-           <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button> -->
+
+
+    <!-- Topbar alkaa -->
+
+<!-- Top Navigation Menu -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+<nav id="menu" style="margin-top: 0%; margin-bottom: -38px;" >
+  <label for="tm" id="toggle-menu">Navigation <span class="drop-icon"><i class="fa fa-bars"></i></span></label>
+  <input type="checkbox" id="tm">
+  <ul class="main-menu clearfix">
+    <li><a class="active" href="#home"><i class="fa fa-list-alt" aria-hidden="true"></i></a></li>
+    <li><a href="#">Luettelot 
+        <span class="drop-icon"><i class="fas fa-angle-double-down"></i></span>
+        <label title="Toggle Drop-down" class="drop-icon" for="sm1"><i class="fas fa-angle-down"></i></label>
+      </a>
+      <input type="checkbox" id="sm1">
+      <ul class="sub-menu">
+          <li><a href="#">Terveyskeskusten lääkärien toimenpideluettelo</a></li>
+          <li><a href="#">TK hammaslääkärien toimenpideluettelo</a></li>
+          <li><a href="#">Sairaalahammaslääkärien toimenpideluettelo</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Tietoa sivustosta</a></li>
+    <ul class="topnavHelp">
+         <li><a id="helpButton" href="#home" class="active"> <i class="fas fa-question"></i></a></li>
+    </ul>
+  </ul>
+</nav>
           
-            <div id="navbarColor01"> <!-- class="collapse navbar-collapse" -->
-              <ul class="navbar-nav mr-auto">
-                <!-- <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li> -->
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li> -->
-
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-
-                <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> -->
-                <!-- <button class="btn btn-secondary btn-large my-2 my-sm-0" type="button" style="font-size: 50%; width: 80px; float:left; margin-right:80%">Avaa valikko ja voitat palkinnon</button> -->
-
-                <button id="helpButton" class="btn btn-secondary btn-large my-2 my-sm-0" type="button" style="font-size: 200%; width: 80px; float:left; margin-right:80%">?</button>
-              </form>
-            </div>
-          </nav>
-          <!-- Navbar loppuu -->
+          <!-- Topbar loppuu -->
 
     <div class="mt-5">
         <div class="row">
             <div class="cold-md-6 m-auto" style="min-width: 100%;">
-                <h2 class="text-center mb-3" style="margin-right: 6%" >
-                    Toimenpidekoodit
+                <h2 class="text-center mb-3" style="margin-right: 3%; font-size: 150%" >
+                    Terveyskeskusten lääkärien toimenpideluettelo
                 </h2>
                 <div class="row">
                     <div id="filterButtonsParent" class="col-sm-12">
