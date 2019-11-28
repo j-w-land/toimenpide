@@ -5,6 +5,8 @@
 
 #menu .main-menu {
   display: none;
+  /* max-width: 100%; */
+  /* max-height: 1em; */
 }
 
 #tm:checked + .main-menu {
@@ -102,14 +104,38 @@
   line-height: 1;
 }
 
+#filterInfoXR, #filterInfoRR, #filterInfoRU {
+  position: relative;
+  max-width: 100%;
+  height: 8%;
+  padding: 0.5%;
+  margin-top: 0.1%;
+  float: left;
+  /* border-width: small; */
+  resize: both;
+  font-size: 0.8rem;
+}
+
+.listaus.list-group-item.p-1.py-0.mb-1.d-flex {
+  cursor: pointer;
+}
+
+
+
 @media only screen and (max-width: 64em) and (min-width: 52.01em) {
   #menu li {
-    width: 33.333%;
+    width: 25%;
   }
 
   #menu .sub-menu li {
     width: auto;
   }
+
+ /*  #filterInfoXR, #filterInfoRR, #filterInfoRU {
+    min-width: 100%;
+    max-height: 100%
+  } */
+
 }
 
 /* Style navigation logo to right */
@@ -166,4 +192,55 @@
   #menu li:hover > input[type="checkbox"] + .sub-menu {
     display: block;
   }
+
+  #filterInfoXR, #filterInfoRR, #filterInfoRU {
+    position: relative;
+    width: 24%;
+    height: 8%;
+    padding: 1%;
+    margin-top: 0.5%;
+    float: left;
+    left: 12%;
+    border-width: medium;
+    resize: both;
+    font-size: 0.8rem;
+  }
+
 }
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#etusivuKuvake .hoverTeksti, #helpButton .hoverTeksti {
+  visibility:hidden;
+  width: 0;
+  }
+  
+  #etusivuKuvake:hover .hoverTeksti, #helpButton:hover .hoverTeksti {
+  visibility:visible;
+  font-style: normal;
+  }

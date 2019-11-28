@@ -13,10 +13,21 @@ let tpKooditActDataSF = [];
 let searchStringP = [];
 //searchStringPass = [];
 
+//tee funktio jonka muistiin tulee tpKooditActData -> searchFuse.js hakee tästä datan:
+var dataTPMuisti = []
+const tpKooditActDataMuisti = (method, tpData) => {
+    if (method == 'store') {
+        dataTPMuisti = format(tpData)
+        console.log(dataTPMuisti)
+    } else if (method == 'call') {
+        console.log(dataTPMuisti)
+        return dataTPMuisti;
+    } else {"tpKooditActDataMuisti ei tunnistanut metodia"}
+};
+
 //otetaan data filtterointia varten. laitetaan koko datasetti ineksiin 0. Loopissa kun filteroidaan laitetaan seuraaviin indekseihin filterointien tulokset. Indeksin sisällä tapahtuu haarojen filterointi
 
 const etsiTPK  = (method, searchText) => {
-    console.log(searchText +"rr")
     if (method == "paste") {
         Ciii = 0;
         CiiiR = 0;
@@ -37,9 +48,13 @@ const etsiTPK  = (method, searchText) => {
     tpKooditActDataS[0] = tpKooditActDataS[0].filter(hakuteksti => {
         return !hakuteksti.ryhmä.match("Ryhmä")
     });
+
+    tpKooditActDataMuisti('store', tpKooditActDataS[0])
+
+    
     tpKooditActHtmlFuncXX("searched");
     searchStringP = format(searchText)
-    // tähän voisi laittaa fielä if-lauseen pastea varten eli jos searchText sisätlää usean eri sanan välilyönneillä niin sitten 1) tyhjennä muisti 2) forEachilla aja jokainen sana läpi sen jälkeen. 
+    // tähän voisi laittaa fielä if-lauseen pastea varten eli jos searchText sisätlää usean eri sanan välilyönneillä niin sitten 1) tyhjennä muisti 2) forEachilla aja jokainen sana läpi sen jälkeen. -- on jo ok yllä..?
 
     if (searchStringP[searchStringP.length-1] == " ") {searchStringSpace = 1} else {searchStringSpace = 0}
     searchStringP = searchText.replace(/\s+/g,' ').trim();
@@ -67,7 +82,6 @@ const etsiTPK  = (method, searchText) => {
 
 
 function etsiTPK2 (searchString)  {
-    console.log(searchString +"rr")
 
    // jos hausta vähenee sana niin dellataan sana:
     if (searchString.length < searchStringStore.length && searchStringSpace === 1 && searchString.length != 0) { 
@@ -178,10 +192,20 @@ function etsiTPK2 (searchString)  {
         let CiiL = 0;
         let CiiiN1 = 1;
     if (combsMatch[0].length === 1) {
-        matchesX = format(tpKooditActDataS[0].filter(hakutekstiX => { // ekalla roundilla ottaa päädatan. jatkossa haaran omasta paikasta. Sijoittaa haaran omaan indeksiin matchesX-arrayssa
-            const regex = new RegExp(`${combsMatch[CiiL][0]}`, 'gi');
+        //const regex = new RegExp(`${combsMatch[CiiL][0]}`, 'gi');
+        /* matchesX = format(tpKooditActDataS[0].filter(hakutekstiX => { // ekalla roundilla ottaa päädatan. jatkossa haaran omasta paikasta. Sijoittaa haaran omaan indeksiin matchesX-arrayssa
             return hakutekstiX.nimi.match(regex) || hakutekstiX.soveltamisohje.match(regex) || hakutekstiX.idLong.match(regex)
-        }));
+        })); */
+
+        // Jos ei tule hakutuloksia:
+
+            matchesX = fuseSearch(0.1, tpKooditActDataS[0].slice(0,-1), combsMatch[CiiL][0]) //splice poistaa placeholderin
+        if (matchesX.length === 0) {
+            console.log("ekalla ei tuloksia")
+            matchesX = fuseSearch(0.4, tpKooditActDataS[0].slice(0,-1), combsMatch[CiiL][0])
+    }
+
+
         tpKooditActDataS[CiiiN1][0] = format(matchesX);
 
        for(i=0; i<tpKooditActDataS[CiiiN1][0].length; i++) {
@@ -192,62 +216,65 @@ function etsiTPK2 (searchString)  {
 
     if (searchString.length === 2) {
 
-
+/*         console.log(tpKooditActDataS[0].slice(0,-1)) // splice poistaa vikan itemin eli placeholderin
         matchesX = tpKooditActDataS[0].slice(0,-1).filter(hakutekstiX => { // ekalla roundilla ottaa päädatan. jatkossa haaran omasta paikasta. Sijoittaa haaran omaan indeksiin matchesX-arrayssa
             const regex = new RegExp(`${combsMatch[0][1]}`, 'gi');
             return hakutekstiX.nimi.match(regex) || hakutekstiX.soveltamisohje.match(regex) || hakutekstiX.idLong.match(regex)
-        });
-        tpKooditActDataS[2][0] = format(matchesX);
+        }); */
+
+
+
+        matchesX = fuseSearch(0.1, tpKooditActDataS[0].slice(0,-1), combsMatch[0][1]) //splice poistaa placeholderin
+        if (matchesX.length === 0) {
+            console.log("ekalla ei tuloksia")
+            matchesX = fuseSearch(0.4, tpKooditActDataS[0].slice(0,-1), combsMatch[0][1])
+    }
+
+    tpKooditActDataS[2][0] = format(matchesX);
+
+        console.log("ei tokan haaran tuloksia")
+        console.log(tpKooditActDataS)
     
          //lisää matchesX arrayhin monennellako hakukerralla tulos löydettiin
          for(i=0; i<tpKooditActDataS[2][0].length; i++) {
             tpKooditActDataS[2][0][i].searchind = [format(searchRound)] // miksi piti laittaa +1...
             };
-            //console.log(tpKooditActDataS);
-    
-        // etsi tpKooditActDataS-arraysta matchesX:ään tallennetut osumat ja filteroi pois dataS-arraysta
-       /*  let CiVi = matchesX.length-1;
-        let CiV = tpKooditActDataS.length-1;
-        while(CiV >0 ) {
-            if (matchesX.findIndex(xxl => xxl.posid === tpKooditActDataS[CiV].posid) != -1 ) {
-                tpKooditActDataS.splice(CiV, 1);
-                CiV = CiV -1;
-            } else {
-            CiV = CiV - 1;
-            CiVi = CiVi - 1;
-            };
-        }; */
+
     
     };
 
     //let nind = searchString.length*2 -3; // kahden ekan haaran pituudet
     let CiiL2 = 0; 
-let CiiiN = 1;
-while (CiiiN < 3 && CiiiN < combsMatch.length + 1) { // ota haarat 1 ja 2.
-    let nind = 2;
-    let nindpos = searchString.length - 2; 
-            matchesX = format(tpKooditActDataS[CiiiN][0].filter(hakutekstiX => { // ekalla roundilla ottaa päädatan. jatkossa haaran omasta paikasta. Sijoittaa haaran omaan indeksiin matchesX-arrayssa
-                const regex2 = new RegExp(`${combsMatch[nindpos][1]}`, 'gi');
-                return hakutekstiX.nimi.match(regex2) || hakutekstiX.soveltamisohje.match(regex2) || hakutekstiX.idLong.match(regex2)
-            }));
-                //lisää matchesX arrayhin monennellako hakukerralla tulos löydettiin
-                //console.log(searchRound)
-                for(i=0; i<matchesX.length; i++) {
-                    let ind = tpKooditActDataS[CiiiN][0].findIndex(x => x.posid === matchesX[i].posid)
+    let CiiiN = 1;
+    while (CiiiN < 3 && CiiiN < combsMatch.length + 1) { // ota haarat 1 ja 2.
+        let nind = 2;
+        let nindpos = searchString.length - 2; 
+              /*   matchesX = format(tpKooditActDataS[CiiiN][0].filter(hakutekstiX => { // ekalla roundilla ottaa päädatan. jatkossa haaran omasta paikasta. Sijoittaa haaran omaan indeksiin matchesX-arrayssa
+                    const regex2 = new RegExp(`${combsMatch[nindpos][1]}`, 'gi');
+                    return hakutekstiX.nimi.match(regex2) || hakutekstiX.soveltamisohje.match(regex2) || hakutekstiX.idLong.match(regex2)
+                })); */
 
-                    if (tpKooditActDataS[CiiiN][0][ind].searchind[tpKooditActDataS[CiiiN][0][ind].searchind.length-1] != searchRound) {
-                    tpKooditActDataS[CiiiN][0][ind].searchind.push(format(searchRound))
+                matchesX = fuseSearch(0.3, tpKooditActDataS[CiiiN][0], combsMatch[nindpos][1]) 
+
+
+                    //lisää matchesX arrayhin monennellako hakukerralla tulos löydettiin
+                    //console.log(searchRound)
+                    for(i=0; i<matchesX.length; i++) {
+                        let ind = tpKooditActDataS[CiiiN][0].findIndex(x => x.posid === matchesX[i].posid)
+
+                        if (tpKooditActDataS[CiiiN][0][ind].searchind[tpKooditActDataS[CiiiN][0][ind].searchind.length-1] != searchRound) {
+                        tpKooditActDataS[CiiiN][0][ind].searchind.push(format(searchRound))
+                        }
                     }
-                }
-    
-        //tpKooditActDataS[CiiiN] = format(matchesX);
         
-        CiiL2 = CiiL2 + 1
-        nind = nind + 1;
-    
-    CiiiN = CiiiN +1;
-    nindpos = 2*nindpos;
-}
+            //tpKooditActDataS[CiiiN] = format(matchesX);
+            
+            CiiL2 = CiiL2 + 1
+            nind = nind + 1;
+        
+        CiiiN = CiiiN +1;
+        nindpos = 2*nindpos;
+    }
         matchesX = [];
        
     };
@@ -294,8 +321,6 @@ while (CiiiN < 3 && CiiiN < combsMatch.length + 1) { // ota haarat 1 ja 2.
             while(pri < 3  && pri < searchRound+1 && d2 != 1 ) {
 
                     for (iii = searchRound; iii>0; iii--) {
-                        console.log(lukujoukkoD[pri-1])
-                        console.log(iii + 1 - pri)
                         let lukujoukko =  k_combinations(lukujoukkoD[pri-1], iii + 1 - pri)
                         for(il=0; il<lukujoukko.length;il++) {
                     tpKooditActDataSF = tpKooditActDataSF.concat(tpKooditActDataS[pri][0].filter(indeksisumma  => String(indeksisumma.searchind) === String(lukujoukko[il])))
@@ -360,4 +385,5 @@ while (CiiiN < 3 && CiiiN < combsMatch.length + 1) { // ota haarat 1 ja 2.
 console.log(tpKooditActDataSF)
 
 }
+
 }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href = "css/sandstonenav.css"> -->
+    <link rel="stylesheet" href = "css/sandstone2.css">
+    <link rel="stylesheet" href = "css/fontawesome.css">
+    <link rel="stylesheet" href = "css/solid.css">
+    <link rel="stylesheet" href = "css/oma.css">
+    <script defer src="assets/JS/solid.js"></script>
+    <script defer src="assets/JS/fontawesome.js"></script>
+    <script defer src="JS/omacssScript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toimenpidekoodit</title>
+<!--     <style>
+    @font-face {
+      font-family: 'Arvo-auto';
+      font-display: auto;
+      src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    }    
+    </style> -->
+</head>
+
+<body id = "container" class="container"; style="background-color:#F5F5F5; margin-top: 10px;" > 
+
+
+    <!-- Topbar alkaa -->
+
+<!-- Top Navigation Menu -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+<nav id="menu" style="margin-top: 0%; margin-bottom: -38px;" >
+  <label for="tm" id="toggle-menu">Toimenpidekoodit <span class="drop-icon"><i class="fa fa-bars"></i></span></label>
+  <input type="checkbox" id="tm">
+  <ul class="main-menu clearfix">
+<!--     <li><a class="active" href="/"><i class="fa fa-list-alt" aria-hidden="true"></i></a>
+      <a class="hoverTieto" href="/"><i class="fa fa-list-alt" aria-hidden="true"></i></a>
+      </li> -->
+      <li id="etusivuKuvake">
+        <a href="/">
+          <i class="fa fa-list-alt" aria-hidden="true"></i> 
+          <i class="hoverTeksti">Etusivu</i> 
+        </a>
+      </li>
+    <li><a href="#">Luettelot 
+        <span class="drop-icon"><i class="fas fa-angle-double-down"></i></span>
+        <label title="Toggle Drop-down" class="drop-icon" for="sm1"><i class="fas fa-angle-down"></i></label>
+      </a>
+      <input type="checkbox" id="sm1">
+      <ul class="sub-menu">
+        <li><a href="/TKlaakari.html">Terveyskeskusten lääkärien toimenpideluettelo</a></li>
+        <li><a href="/TKhammas.html">TK hammaslääkärien toimenpideluettelo</a></li>
+          <li><a href="#">Sairaalahammaslääkärien toimenpideluettelo</a></li>
+      </ul>
+    </li>
+    <li id="tietoSivusta"><a href="/about.html" style="background-color:darkgrey; color:white; text-decoration: none;font-weight: bold;">Tietoa sivustosta</a></li> <!-- highlighttaa auki oleva tabi merkiksi -->
+<!--     <ul class="topnavHelp">
+         <li>
+           <a id="helpButton" href="#" class="active"> 
+             <i class="fas fa-question"></i>
+            <i class="hoverTeksti">Apua</i> 
+        </a>
+      </li>
+    </ul> -->
+  </ul>
+</nav>
+          
+          <!-- Topbar loppuu -->
+
+    <div class="mt-5">
+        <div class="row">
+            <div class="cold-md-6 m-auto" style="min-width: 100%;">
+                <h1 class="text-center mb-3" style="margin-right: 3%; margin-top: 3%;" >
+                    Tietoa sivustosta
+                </h1>
+                <div class="card border-dark mb-3">
+                  <!-- <div class="card-header" style="font-weight: bold;">Tausta</div> -->
+                  <div class="card-body">
+                    <!-- <h4 class="card-title">Dark card title</h4> -->
+                    <p class="card-text">
+                      Tälle sivustolle on luotu hakukone, jolla voi suorittaa hakuja kunnallisen lääkärien virkaehtosopimuksen toimenpideluetteloista.  
+                    </p>
+                    <p class="card-text">                     
+                        Hakukone sisältää kunnallisen lääkärien virkaehtosopimuksen LS 2018-2019 liitteissä olevat toimenpideluettelot:
+                        <li> Terveyskeskuslääkärien toimenpideluettelo</li>
+                        <li>Terveyskeskushammaslääkärien toimenpideluettelo</li> 
+                        <li> Sairaalahammaslääkärien toimenpideluettelo</li>
+                      </p>
+
+                      <p class="card-text">
+                        Hakukone on kehitetty nopeuttamaan oikean toimenpiteen etsimistä, koska aikaisemmin luetteloa ei ole ollut käytettävissä helpossa muodossa. Sivusto on kehitetty vapaa-ajan projektina ja tavoitteena on helpottaa toimenpideluetteloiden käyttämistä ja nopeuttaa tiedon löytämistä. 
+
+                      </p>
+
+                  </div>
+                </div>
+
+            </div>
+          </div>
+      </div>
+    <!-- <script src="JS/popper.js"></script> -->
+    <script src="JS/main.js"></script>
+    <script src="JS/search.js"></script>
+    <script src="JS/searchExt.js"></script>
+    <script src="JS/app.js"></script>
+<!--     <script src="directory.js"></script> -->
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>

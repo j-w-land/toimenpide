@@ -14,15 +14,22 @@ const initTPK = async (initRyhmätStore) => { //searchText
     let combinedList = [];
 
 
-    const res = await fetch('../toimenpide/data/tpk.json');
+    const res = await fetch('../toimenpide/data/hammasTK.json');
     let xtpkoodit = await res.json(); // kaikki data tpkoodit-arrayssa
 
     let tpKooditList = [];
 
     tpKooditList[0] = format(xtpkoodit.filter(ryhma => {
-        const regex = new RegExp("XR", 'gi');
+        const regex = new RegExp("", 'gi');
         return ryhma.ryhmäTop.match(regex);
     }));
+    console.log(tpKooditList)
+
+
+ /*    tpKooditList[0] = format(xtpkoodit.filter(ryhma => {
+        const regex = new RegExp("XR", 'gi');
+        return ryhma.ryhmäTop.match(regex);
+    })); */
     tpKooditList[1] = format(xtpkoodit.filter(ryhma => {
         const regex = new RegExp("RU");
         return ryhma.ryhmäTop.match(regex);
@@ -117,7 +124,7 @@ defaultStyleRR = '"font-size: 93%; font-weight: 500" ';
 defaultStyleRRTop = '"font-size: 105%; font-weight: 500"; margin-bottom: 1%; margin-top: 1%; ';
 defaultSpanStyleRR = "text-warning";
 
-defaultClassRyhma = '"alert alert-dismissible alert-secondary p-1 py-0 mb-3 mt-4 d-flex" style="height: 100%; padding: 0px; font-size: 97%"';
+defaultClassRyhma = '"alert alert-dismissible alert-secondary p-1 py-0 mb-3 mt-4 d-flex" style="height: 100%; padding: 0px; font-size: 97%; background-color: #325D88"';
 defaultClassRyhmaXR = '"alert alert-dismissible alert-secondary p-1 py-0 mb-3 mt-4 d-flex" style="height: 100%; padding: 0px; font-size: 97%; background-color: #325D88"';
 defaultClassRyhmaRU = '"alert alert-dismissible alert-secondary p-1 py-0 mb-3 mt-4 d-flex" style="height: 100%; padding: 0px; font-size: 97%; background-color: rgb(72, 112, 15)"';
 defaultClassRyhmaRR = '"alert alert-dismissible alert-secondary p-1 py-0 mb-3 mt-4 d-flex" style="height: 100%; padding: 0px; font-size: 97%; background-color: #F47C3C"';
@@ -288,7 +295,7 @@ const outputDefaultHtml = tpKooditActHtmlH => {
 
 
     //filterButtons.innerHTML = "";
-    filterButtons.innerHTML = `<button id="XRbutton" type="button" class= "btn btn-primary ${buttonArrayFormat[0]} ${buttonArraySize[0]}">R0-R III</button> <button id="RUbutton" type="button" class= "btn btn-success ${buttonArrayFormat[1]} ${buttonArraySize[1]}">RU I-RU II</button> <button id="RRbutton" type="button" class= "btn btn-warning ${buttonArrayFormat[2]} ${buttonArraySize[2]}">RR I-RR III</button> <i id="filterInfoButton" class="fas fa-info-circle fa-w-16 fa-2x" style="margin-left: 1%; margin-bottom: -0.5%; width: auto "></i>` ;
+   /*  filterButtons.innerHTML = `<button id="XRbutton" type="button" class= "btn btn-primary ${buttonArrayFormat[0]} ${buttonArraySize[0]}">R0-R III</button> <button id="RUbutton" type="button" class= "btn btn-success ${buttonArrayFormat[1]} ${buttonArraySize[1]}">RU I-RU II</button> <button id="RRbutton" type="button" class= "btn btn-warning ${buttonArrayFormat[2]} ${buttonArraySize[2]}">RR I-RR III</button> <i id="filterInfoButton" class="fas fa-info-circle fa-w-16 fa-2x" style="margin-left: 1%; margin-bottom: -0.5%; width: auto "></i>` ; */
 
 
 };
@@ -334,7 +341,7 @@ const hoverExecution = (activeitem) => {
         hoverActiveInfo = activeInfo.map(
             () => `
             <div class="card bg-light mb-3 mt-3" style="max-width: 97%; position:relative; left:3%;">
-            <div class="card-header" style="font-weight: 410;">Toimenpideryhmä: ${activeInfo[0].ryhmä} (${tpryhmat[0][ryhmakey]})</div>
+            <div class="card-header" style="font-weight: 410;">Toimenpideryhmä: ${activeInfo[0].ryhmä}</div>
             <div class="card-body">
             <!--<h4 class="card-title">${activeInfo[0].nimi}</h4>-->
               <p class="card-text" style="margin-bottom: 0.4%; font-style: italic; font-weight: bold;")>Soveltamisohje:</p>
@@ -351,6 +358,8 @@ const hoverExecution = (activeitem) => {
 
     //hoverItemClass = '"listaus list-group-item border border-dark p-1 py-0 mb-1 mt-2" style="height: 100%;  padding: 0px; font-size: 97%; max-width: 100%; position:relative; left:0.3%;"';
     hoverItemStyle = '"font-size: 140%; font-weight: 500" ';
+    hoverItemClass = defaultClass;
+    hoverItemSpanStyle = defaultSpanStyle;
 
     if (activeInfo[0].ryhmäTop =="XR") {
         hoverItemClass = defaultClassXR;
@@ -486,7 +495,7 @@ function setUpListen() {
 
 function setUpButtonListen() {
 
-    filterButtons.addEventListener('click', () => {
+   /*  filterButtons.addEventListener('click', () => {
         search.value = "";
         
         if ([event.target][0].id == "XRbutton") {
@@ -518,7 +527,7 @@ function setUpButtonListen() {
 
         } else {console.log("error")}
     }
-    );
+    ); */
 
  
     helpButton.addEventListener('click', () => {
