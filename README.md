@@ -1,4 +1,4 @@
-﻿# toimenpidekoodit (procedure code) search engine
+﻿# search engine for health care procedure codes
 
 A personal project written with vanilla javascript.
 
