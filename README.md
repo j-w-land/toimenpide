@@ -1,4 +1,4 @@
-﻿# toimenpide
+﻿# toimenpidekoodit (procedure code) search engine
 
 A personal project written with vanilla javascript.
 
