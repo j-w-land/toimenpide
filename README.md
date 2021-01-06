@@ -11,7 +11,7 @@ Reception:
   Since deployment at April-2020 the web page has had average of 5-10 visitors per week. This signals that the app has been perceived as useful by the users. User acquisition and prodcut marketing limits to one post on a facebook group. 
 
 Highlight of technologies:
-  -Javascript
+  -Javascript\n
   -Webpack for bundling
   -Babel to make the app support Internet Explorer (browser used often at public sector)
   -Fuse.js implemented for fuzzy-search library
